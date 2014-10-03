@@ -41,6 +41,9 @@
     },
     "{viewFileName}.js.tpl.merge": {
       "acde5ea901286ca2f976bcddea23e159dbaa0e6f": "eJxzrSjRS0lNy8xL1VCqTiwo8EvMTa3VK8tMLderBpFgvpKOQjWXAhCkVpSk5qVYKai7ArU55+cW5Oel5pWo64AlM0pyc4BSHqk5Ofk6CuH5RTkpiorqXLWa1gDU/CBX"
+    },
+    "{modelFileName}.js.tpl.merge": {
+      "31d5356142a167c72422f7902f19df3c583f3249": "eJxlUcFugzAMvfMVVqUq0CLorlC6w7TrfgBxSMG00dKAktAxRfn3GWg7rfMhdvKeX16c99EmDbZCYcjcpWtQfvALmp7X6BOnqPYsBhcABY4WVZMBc0du8E1yYwicoXlpBcrGZFC69byf4srlgCZZICggbAdVW9Epquaz6CZ+j7bTEF65Bo2W+GUVQ8+1nXqXhsT0UtiQxSyKQdDxLqe0X1iJRHWy5xy2W/GsvNjR0FLPTC5FdRfLWJT/I5ODpB/MOXQwDSKDttyRHfvdz/VLBf6pywfBk8Cg1ZTyX8BH4Z+h3CTWfm97OT2/WC3A6vDouRtgjx9ZTDA3Zc/AuxLCUagGRygKGOtuUDaCV2AMiBYzqPw+pQsOgVtDuoGj5OoTJP072I4cNkONcEF9Qqg71UpR08i/0sGgBmwEbTYpeZwdVcH07h/XJaFF"
     }
   },
   "targets": {
@@ -398,6 +401,791 @@
         "name": "Setup",
         "viewFileName": "Setup",
         "viewName": "Setup"
+      }
+    },
+    "app/model/Enumeration.js": {
+      "source": "{modelFileName}.js.tpl.merge",
+      "version": "31d5356142a167c72422f7902f19df3c583f3249",
+      "parameters": {
+        "appName": "MyRetirement",
+        "baseClass": "Ext.data.Model",
+        "fields": "label:string:null,sortOrder:int:null,value:int:null",
+        "modelFileName": "Enumeration",
+        "modelNamespace": "MyRetirement.model",
+        "name": "Enumeration"
+      }
+    },
+    "app/model/asset/Growth.js": {
+      "source": "{modelFileName}.js.tpl.merge",
+      "version": "31d5356142a167c72422f7902f19df3c583f3249",
+      "parameters": {
+        "appName": "MyRetirement",
+        "baseClass": "Ext.data.Model",
+        "fields": "assetsToRetirement:auto:null",
+        "modelFileName": "asset/Growth",
+        "modelNamespace": "MyRetirement.model",
+        "name": "asset.Growth"
+      }
+    },
+    "app/model/asset/Retirement.js": {
+      "source": "{modelFileName}.js.tpl.merge",
+      "version": "31d5356142a167c72422f7902f19df3c583f3249",
+      "parameters": {
+        "appName": "MyRetirement",
+        "baseClass": "Ext.data.Model",
+        "fields": "id:auto:null,name:auto:null",
+        "modelFileName": "asset/Retirement",
+        "modelNamespace": "MyRetirement.model",
+        "name": "asset.Retirement"
+      }
+    },
+    "app/model/asset/RetirementComposition.js": {
+      "source": "{modelFileName}.js.tpl.merge",
+      "version": "31d5356142a167c72422f7902f19df3c583f3249",
+      "parameters": {
+        "appName": "MyRetirement",
+        "baseClass": "Ext.data.Model",
+        "fields": "id:auto:null,name:auto:null",
+        "modelFileName": "asset/RetirementComposition",
+        "modelNamespace": "MyRetirement.model",
+        "name": "asset.RetirementComposition"
+      }
+    },
+    "app/model/comparison/Budget.js": {
+      "source": "{modelFileName}.js.tpl.merge",
+      "version": "31d5356142a167c72422f7902f19df3c583f3249",
+      "parameters": {
+        "appName": "MyRetirement",
+        "baseClass": "Ext.data.Model",
+        "fields": "id:auto:null,name:auto:null",
+        "modelFileName": "comparison/Budget",
+        "modelNamespace": "MyRetirement.model",
+        "name": "comparison.Budget"
+      }
+    },
+    "app/model/comparison/Data.js": {
+      "source": "{modelFileName}.js.tpl.merge",
+      "version": "31d5356142a167c72422f7902f19df3c583f3249",
+      "parameters": {
+        "appName": "MyRetirement",
+        "baseClass": "Ext.data.Model",
+        "fields": "id:auto:null,name:auto:null",
+        "modelFileName": "comparison/Data",
+        "modelNamespace": "MyRetirement.model",
+        "name": "comparison.Data"
+      }
+    },
+    "app/model/comparison/TakeHomePay.js": {
+      "source": "{modelFileName}.js.tpl.merge",
+      "version": "31d5356142a167c72422f7902f19df3c583f3249",
+      "parameters": {
+        "appName": "MyRetirement",
+        "baseClass": "Ext.data.Model",
+        "fields": "id:auto:null,name:auto:null",
+        "modelFileName": "comparison/TakeHomePay",
+        "modelNamespace": "MyRetirement.model",
+        "name": "comparison.TakeHomePay"
+      }
+    },
+    "app/model/income/Annuity.js": {
+      "source": "{modelFileName}.js.tpl.merge",
+      "version": "31d5356142a167c72422f7902f19df3c583f3249",
+      "parameters": {
+        "appName": "MyRetirement",
+        "baseClass": "Ext.data.Model",
+        "fields": "id:auto:null,name:auto:null",
+        "modelFileName": "income/Annuity",
+        "modelNamespace": "MyRetirement.model",
+        "name": "income.Annuity"
+      }
+    },
+    "app/model/income/Retirement.js": {
+      "source": "{modelFileName}.js.tpl.merge",
+      "version": "31d5356142a167c72422f7902f19df3c583f3249",
+      "parameters": {
+        "appName": "MyRetirement",
+        "baseClass": "Ext.data.Model",
+        "fields": "id:auto:null,name:auto:null",
+        "modelFileName": "income/Retirement",
+        "modelNamespace": "MyRetirement.model",
+        "name": "income.Retirement"
+      }
+    },
+    "app/model/income/RetirementAverage.js": {
+      "source": "{modelFileName}.js.tpl.merge",
+      "version": "31d5356142a167c72422f7902f19df3c583f3249",
+      "parameters": {
+        "appName": "MyRetirement",
+        "baseClass": "Ext.data.Model",
+        "fields": "id:auto:null,name:auto:null",
+        "modelFileName": "income/RetirementAverage",
+        "modelNamespace": "MyRetirement.model",
+        "name": "income.RetirementAverage"
+      }
+    },
+    "app/model/income/SocialSecurity.js": {
+      "source": "{modelFileName}.js.tpl.merge",
+      "version": "31d5356142a167c72422f7902f19df3c583f3249",
+      "parameters": {
+        "appName": "MyRetirement",
+        "baseClass": "Ext.data.Model",
+        "fields": "id:auto:null,name:auto:null",
+        "modelFileName": "income/SocialSecurity",
+        "modelNamespace": "MyRetirement.model",
+        "name": "income.SocialSecurity"
+      }
+    },
+    "app/model/relius/AboutYou.js": {
+      "source": "{modelFileName}.js.tpl.merge",
+      "version": "31d5356142a167c72422f7902f19df3c583f3249",
+      "parameters": {
+        "appName": "MyRetirement",
+        "baseClass": "Ext.data.Model",
+        "fields": "id:auto:null,name:auto:null",
+        "modelFileName": "relius/AboutYou",
+        "modelNamespace": "MyRetirement.model",
+        "name": "relius.AboutYou"
+      }
+    },
+    "app/model/setup/AssetAllocation.js": {
+      "source": "{modelFileName}.js.tpl.merge",
+      "version": "31d5356142a167c72422f7902f19df3c583f3249",
+      "parameters": {
+        "appName": "MyRetirement",
+        "baseClass": "Ext.data.Model",
+        "fields": "id:auto:null,name:auto:null",
+        "modelFileName": "setup/AssetAllocation",
+        "modelNamespace": "MyRetirement.model",
+        "name": "setup.AssetAllocation"
+      }
+    },
+    "app/model/setup/SetupInfo.js": {
+      "source": "{modelFileName}.js.tpl.merge",
+      "version": "31d5356142a167c72422f7902f19df3c583f3249",
+      "parameters": {
+        "appName": "MyRetirement",
+        "baseClass": "Ext.data.Model",
+        "fields": "id:auto:null,name:auto:null",
+        "modelFileName": "setup/SetupInfo",
+        "modelNamespace": "MyRetirement.model",
+        "name": "setup.SetupInfo"
+      }
+    },
+    "app/model/whatif/AdditionalInvestment.js": {
+      "source": "{modelFileName}.js.tpl.merge",
+      "version": "31d5356142a167c72422f7902f19df3c583f3249",
+      "parameters": {
+        "appName": "MyRetirement",
+        "baseClass": "Ext.data.Model",
+        "fields": "id:auto:null,name:auto:null",
+        "modelFileName": "whatif/AdditionalInvestment",
+        "modelNamespace": "MyRetirement.model",
+        "name": "whatif.AdditionalInvestment"
+      }
+    },
+    "app/model/whatif/SavingMore.js": {
+      "source": "{modelFileName}.js.tpl.merge",
+      "version": "31d5356142a167c72422f7902f19df3c583f3249",
+      "parameters": {
+        "appName": "MyRetirement",
+        "baseClass": "Ext.data.Model",
+        "fields": "id:auto:null,name:auto:null",
+        "modelFileName": "whatif/SavingMore",
+        "modelNamespace": "MyRetirement.model",
+        "name": "whatif.SavingMore"
+      }
+    },
+    "app/model/withdrawal/AssetAllocation.js": {
+      "source": "{modelFileName}.js.tpl.merge",
+      "version": "31d5356142a167c72422f7902f19df3c583f3249",
+      "parameters": {
+        "appName": "MyRetirement",
+        "baseClass": "Ext.data.Model",
+        "fields": "id:auto:null,name:auto:null",
+        "modelFileName": "withdrawal/AssetAllocation",
+        "modelNamespace": "MyRetirement.model",
+        "name": "withdrawal.AssetAllocation"
+      }
+    },
+    "app/model/withdrawal/RateData.js": {
+      "source": "{modelFileName}.js.tpl.merge",
+      "version": "31d5356142a167c72422f7902f19df3c583f3249",
+      "parameters": {
+        "appName": "MyRetirement",
+        "baseClass": "Ext.data.Model",
+        "fields": "id:auto:null,name:auto:null",
+        "modelFileName": "withdrawal/RateData",
+        "modelNamespace": "MyRetirement.model",
+        "name": "withdrawal.RateData"
+      }
+    },
+    "app/controller/Assets.js": {
+      "source": "{controllerFileName}.js.tpl.merge",
+      "version": "b092f4aad11d2f7eaab5ce3e2dcc2fc3134f3188",
+      "parameters": {
+        "appName": "MyRetirement",
+        "controllerFileName": "Assets",
+        "controllerName": "Assets",
+        "controllerNamespace": "MyRetirement.controller",
+        "name": "Assets"
+      }
+    },
+    "app/controller/Comparison.js": {
+      "source": "{controllerFileName}.js.tpl.merge",
+      "version": "b092f4aad11d2f7eaab5ce3e2dcc2fc3134f3188",
+      "parameters": {
+        "appName": "MyRetirement",
+        "controllerFileName": "Comparison",
+        "controllerName": "Comparison",
+        "controllerNamespace": "MyRetirement.controller",
+        "name": "Comparison"
+      }
+    },
+    "app/controller/Development.js": {
+      "source": "{controllerFileName}.js.tpl.merge",
+      "version": "b092f4aad11d2f7eaab5ce3e2dcc2fc3134f3188",
+      "parameters": {
+        "appName": "MyRetirement",
+        "controllerFileName": "Development",
+        "controllerName": "Development",
+        "controllerNamespace": "MyRetirement.controller",
+        "name": "Development"
+      }
+    },
+    "app/controller/Help.js": {
+      "source": "{controllerFileName}.js.tpl.merge",
+      "version": "b092f4aad11d2f7eaab5ce3e2dcc2fc3134f3188",
+      "parameters": {
+        "appName": "MyRetirement",
+        "controllerFileName": "Help",
+        "controllerName": "Help",
+        "controllerNamespace": "MyRetirement.controller",
+        "name": "Help"
+      }
+    },
+    "app/controller/Income.js": {
+      "source": "{controllerFileName}.js.tpl.merge",
+      "version": "b092f4aad11d2f7eaab5ce3e2dcc2fc3134f3188",
+      "parameters": {
+        "appName": "MyRetirement",
+        "controllerFileName": "Income",
+        "controllerName": "Income",
+        "controllerNamespace": "MyRetirement.controller",
+        "name": "Income"
+      }
+    },
+    "app/controller/WhatIfParticipant.js": {
+      "source": "{controllerFileName}.js.tpl.merge",
+      "version": "b092f4aad11d2f7eaab5ce3e2dcc2fc3134f3188",
+      "parameters": {
+        "appName": "MyRetirement",
+        "controllerFileName": "WhatIfParticipant",
+        "controllerName": "WhatIfParticipant",
+        "controllerNamespace": "MyRetirement.controller",
+        "name": "WhatIfParticipant"
+      }
+    },
+    "app/controller/Withdrawal.js": {
+      "source": "{controllerFileName}.js.tpl.merge",
+      "version": "b092f4aad11d2f7eaab5ce3e2dcc2fc3134f3188",
+      "parameters": {
+        "appName": "MyRetirement",
+        "controllerFileName": "Withdrawal",
+        "controllerName": "Withdrawal",
+        "controllerNamespace": "MyRetirement.controller",
+        "name": "Withdrawal"
+      }
+    },
+    "app/controller/relius/AboutYou.js": {
+      "source": "{controllerFileName}.js.tpl.merge",
+      "version": "b092f4aad11d2f7eaab5ce3e2dcc2fc3134f3188",
+      "parameters": {
+        "appName": "MyRetirement",
+        "controllerFileName": "relius/AboutYou",
+        "controllerName": "relius.AboutYou",
+        "controllerNamespace": "MyRetirement.controller",
+        "name": "relius.AboutYou"
+      }
+    },
+    "app/controller/relius/DisclaimerTab.js": {
+      "source": "{controllerFileName}.js.tpl.merge",
+      "version": "b092f4aad11d2f7eaab5ce3e2dcc2fc3134f3188",
+      "parameters": {
+        "appName": "MyRetirement",
+        "controllerFileName": "relius/DisclaimerTab",
+        "controllerName": "relius.DisclaimerTab",
+        "controllerNamespace": "MyRetirement.controller",
+        "name": "relius.DisclaimerTab"
+      }
+    },
+    "app/view/assets/ChartPanel.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "assets.ChartPanel",
+        "viewFileName": "assets/ChartPanel",
+        "viewName": "assets.ChartPanel"
+      }
+    },
+    "app/view/assets/GrowthChart.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "assets.GrowthChart",
+        "viewFileName": "assets/GrowthChart",
+        "viewName": "assets.GrowthChart"
+      }
+    },
+    "app/view/assets/InvestmentAccounts.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "assets.InvestmentAccounts",
+        "viewFileName": "assets/InvestmentAccounts",
+        "viewName": "assets.InvestmentAccounts"
+      }
+    },
+    "app/view/assets/InvestmentAccountSegment.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "assets.InvestmentAccountSegment",
+        "viewFileName": "assets/InvestmentAccountSegment",
+        "viewName": "assets.InvestmentAccountSegment"
+      }
+    },
+    "app/view/assets/InvestmentAccountTable.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "assets.InvestmentAccountTable",
+        "viewFileName": "assets/InvestmentAccountTable",
+        "viewName": "assets.InvestmentAccountTable"
+      }
+    },
+    "app/view/assets/Panel.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "assets.Panel",
+        "viewFileName": "assets/Panel",
+        "viewName": "assets.Panel"
+      }
+    },
+    "app/view/assets/RetirementAccounts.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "assets.RetirementAccounts",
+        "viewFileName": "assets/RetirementAccounts",
+        "viewName": "assets.RetirementAccounts"
+      }
+    },
+    "app/view/assets/RetirementAccountSegment.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "assets.RetirementAccountSegment",
+        "viewFileName": "assets/RetirementAccountSegment",
+        "viewName": "assets.RetirementAccountSegment"
+      }
+    },
+    "app/view/assets/RetirementAccountTable.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "assets.RetirementAccountTable",
+        "viewFileName": "assets/RetirementAccountTable",
+        "viewName": "assets.RetirementAccountTable"
+      }
+    },
+    "app/view/comparison/Chart.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "comparison.Chart",
+        "viewFileName": "comparison/Chart",
+        "viewName": "comparison.Chart"
+      }
+    },
+    "app/view/comparison/MyBudgetRow.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "comparison.MyBudgetRow",
+        "viewFileName": "comparison/MyBudgetRow",
+        "viewName": "comparison.MyBudgetRow"
+      }
+    },
+    "app/view/comparison/MyBudgetTable.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "comparison.MyBudgetTable",
+        "viewFileName": "comparison/MyBudgetTable",
+        "viewName": "comparison.MyBudgetTable"
+      }
+    },
+    "app/view/comparison/MyBudgetTotalsRow.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "comparison.MyBudgetTotalsRow",
+        "viewFileName": "comparison/MyBudgetTotalsRow",
+        "viewName": "comparison.MyBudgetTotalsRow"
+      }
+    },
+    "app/view/comparison/Panel.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "comparison.Panel",
+        "viewFileName": "comparison/Panel",
+        "viewName": "comparison.Panel"
+      }
+    },
+    "app/view/comparison/TakeHomeTable.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "comparison.TakeHomeTable",
+        "viewFileName": "comparison/TakeHomeTable",
+        "viewName": "comparison.TakeHomeTable"
+      }
+    },
+    "app/view/income/ChartPanel.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "income.ChartPanel",
+        "viewFileName": "income/ChartPanel",
+        "viewName": "income.ChartPanel"
+      }
+    },
+    "app/view/income/MonthlyChart.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "income.MonthlyChart",
+        "viewFileName": "income/MonthlyChart",
+        "viewName": "income.MonthlyChart"
+      }
+    },
+    "app/view/income/NoteAnnuitySegment.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "income.NoteAnnuitySegment",
+        "viewFileName": "income/NoteAnnuitySegment",
+        "viewName": "income.NoteAnnuitySegment"
+      }
+    },
+    "app/view/income/NoteAnnuityTable.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "income.NoteAnnuityTable",
+        "viewFileName": "income/NoteAnnuityTable",
+        "viewName": "income.NoteAnnuityTable"
+      }
+    },
+    "app/view/income/OtherIncomeSegment.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "income.OtherIncomeSegment",
+        "viewFileName": "income/OtherIncomeSegment",
+        "viewName": "income.OtherIncomeSegment"
+      }
+    },
+    "app/view/income/OtherIncomeTable.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "income.OtherIncomeTable",
+        "viewFileName": "income/OtherIncomeTable",
+        "viewName": "income.OtherIncomeTable"
+      }
+    },
+    "app/view/income/Panel.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "income.Panel",
+        "viewFileName": "income/Panel",
+        "viewName": "income.Panel"
+      }
+    },
+    "app/view/income/SocialSecurityTable.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "income.SocialSecurityTable",
+        "viewFileName": "income/SocialSecurityTable",
+        "viewName": "income.SocialSecurityTable"
+      }
+    },
+    "app/view/setup/AssumptionTable.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "setup.AssumptionTable",
+        "viewFileName": "setup/AssumptionTable",
+        "viewName": "setup.AssumptionTable"
+      }
+    },
+    "app/view/setup/ChartPanel.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "setup.ChartPanel",
+        "viewFileName": "setup/ChartPanel",
+        "viewName": "setup.ChartPanel"
+      }
+    },
+    "app/view/setup/MyInformationTable.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "setup.MyInformationTable",
+        "viewFileName": "setup/MyInformationTable",
+        "viewName": "setup.MyInformationTable"
+      }
+    },
+    "app/view/setup/Panel.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "setup.Panel",
+        "viewFileName": "setup/Panel",
+        "viewName": "setup.Panel"
+      }
+    },
+    "app/view/setup/RetirementYearsChart.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "setup.RetirementYearsChart",
+        "viewFileName": "setup/RetirementYearsChart",
+        "viewName": "setup.RetirementYearsChart"
+      }
+    },
+    "app/view/whatIf/ChartParticipant.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "whatIf.ChartParticipant",
+        "viewFileName": "whatIf/ChartParticipant",
+        "viewName": "whatIf.ChartParticipant"
+      }
+    },
+    "app/view/whatIf/FooterParticipant.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "whatIf.FooterParticipant",
+        "viewFileName": "whatIf/FooterParticipant",
+        "viewName": "whatIf.FooterParticipant"
+      }
+    },
+    "app/view/whatIf/PanelParticipant.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "whatIf.PanelParticipant",
+        "viewFileName": "whatIf/PanelParticipant",
+        "viewName": "whatIf.PanelParticipant"
+      }
+    },
+    "app/view/whatIf/TableParticipant.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "whatIf.TableParticipant",
+        "viewFileName": "whatIf/TableParticipant",
+        "viewName": "whatIf.TableParticipant"
+      }
+    },
+    "app/view/withdrawal/ChartPanel.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "withdrawal.ChartPanel",
+        "viewFileName": "withdrawal/ChartPanel",
+        "viewName": "withdrawal.ChartPanel"
+      }
+    },
+    "app/view/withdrawal/Panel.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "withdrawal.Panel",
+        "viewFileName": "withdrawal/Panel",
+        "viewName": "withdrawal.Panel"
+      }
+    },
+    "app/view/withdrawal/RateTable.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "withdrawal.RateTable",
+        "viewFileName": "withdrawal/RateTable",
+        "viewName": "withdrawal.RateTable"
+      }
+    },
+    "app/view/relius/AboutYouTab.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "relius.AboutYouTab",
+        "viewFileName": "relius/AboutYouTab",
+        "viewName": "relius.AboutYouTab"
+      }
+    },
+    "app/view/relius/DisclaimerTab.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "relius.DisclaimerTab",
+        "viewFileName": "relius/DisclaimerTab",
+        "viewName": "relius.DisclaimerTab"
+      }
+    },
+    "app/view/relius/ModuleToolsRelius.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "relius.ModuleToolsRelius",
+        "viewFileName": "relius/ModuleToolsRelius",
+        "viewName": "relius.ModuleToolsRelius"
+      }
+    },
+    "app/view/relius/PersonalInfoForm.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "relius.PersonalInfoForm",
+        "viewFileName": "relius/PersonalInfoForm",
+        "viewName": "relius.PersonalInfoForm"
+      }
+    },
+    "app/view/AppPanel.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "AppPanel",
+        "viewFileName": "AppPanel",
+        "viewName": "AppPanel"
+      }
+    },
+    "app/view/ChartPanel.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "ChartPanel",
+        "viewFileName": "ChartPanel",
+        "viewName": "ChartPanel"
+      }
+    },
+    "app/view/DataHeader.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "DataHeader",
+        "viewFileName": "DataHeader",
+        "viewName": "DataHeader"
+      }
+    },
+    "app/view/DataPanel.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "DataPanel",
+        "viewFileName": "DataPanel",
+        "viewName": "DataPanel"
+      }
+    },
+    "app/view/HelpPanel.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "HelpPanel",
+        "viewFileName": "HelpPanel",
+        "viewName": "HelpPanel"
+      }
+    },
+    "app/view/LegendFooter.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "LegendFooter",
+        "viewFileName": "LegendFooter",
+        "viewName": "LegendFooter"
+      }
+    },
+    "app/view/ModuleTools.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "ModuleTools",
+        "viewFileName": "ModuleTools",
+        "viewName": "ModuleTools"
+      }
+    },
+    "app/view/Viewport.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "Viewport",
+        "viewFileName": "Viewport",
+        "viewName": "Viewport"
       }
     }
   }

@@ -1,4 +1,4 @@
-Ext.define("MyRetirement.view.Viewport", {
+Ext.define("MyRetirement.view.assets.GrowthChart", {
     extend: 'Ext.Component',
     html: 'Hello, World!!'
 });

@@ -1,4 +1,4 @@
-Ext.define("MyRetirement.view.Viewport", {
+Ext.define("MyRetirement.view.AppPanel", {
     extend: 'Ext.Component',
     html: 'Hello, World!!'
 });
