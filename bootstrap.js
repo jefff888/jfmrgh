@@ -422,6 +422,7 @@ Ext.ClassManager.addNameAlternateMappings({
   ],
   "Ext.grid.RowEditor": [],
   "Ext.grid.RowEditorButtons": [],
+  "Ext.grid.Scroller": [],
   "Ext.grid.View": [],
   "Ext.grid.ViewDropZone": [],
   "Ext.grid.column.Action": [
@@ -851,7 +852,10 @@ Ext.ClassManager.addNameAlternateMappings({
   ],
   "MyRetirement.Application": [],
   "MyRetirement.controller.Main": [],
+  "MyRetirement.controller.Setup": [],
+  "MyRetirement.controller.Viewport": [],
   "MyRetirement.view.Main": [],
+  "MyRetirement.view.Setup": [],
   "MyRetirement.view.Viewport": []
 });
 
@@ -1291,6 +1295,7 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.grid.RowEditorButtons": [
     "widget.roweditorbuttons"
   ],
+  "Ext.grid.Scroller": [],
   "Ext.grid.View": [
     "widget.gridview"
   ],
@@ -1853,9 +1858,12 @@ Ext.ClassManager.addNameAliasMappings({
   ],
   "MyRetirement.Application": [],
   "MyRetirement.controller.Main": [],
+  "MyRetirement.controller.Setup": [],
+  "MyRetirement.controller.Viewport": [],
   "MyRetirement.view.Main": [
     "widget.app-main"
   ],
+  "MyRetirement.view.Setup": [],
   "MyRetirement.view.Viewport": []
 });
 

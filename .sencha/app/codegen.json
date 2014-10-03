@@ -38,6 +38,9 @@
     },
     "{controllerFileName}.js.tpl.merge": {
       "b092f4aad11d2f7eaab5ce3e2dcc2fc3134f3188": "eJxzrSjRS0lNy8xL1VCvTs7PKynKz8lJLfJLzE0tLkhMTq3VQxOtVddRqOZSAILUipLUvBQrBXVXoBmJBQV6znCF6ly1mtZcACwSIF0\u003d"
+    },
+    "{viewFileName}.js.tpl.merge": {
+      "acde5ea901286ca2f976bcddea23e159dbaa0e6f": "eJxzrSjRS0lNy8xL1VCqTiwo8EvMTa3VK8tMLderBpFgvpKOQjWXAhCkVpSk5qVYKai7ArU55+cW5Oel5pWo64AlM0pyc4BSHqk5Ofk6CuH5RTkpiorqXLWa1gDU/CBX"
     }
   },
   "targets": {
@@ -363,6 +366,38 @@
         "controllerNamespace": "MyRetirement.controller",
         "library": "all",
         "name": "MyRetirement"
+      }
+    },
+    "app/controller/Setup.js": {
+      "source": "{controllerFileName}.js.tpl.merge",
+      "version": "b092f4aad11d2f7eaab5ce3e2dcc2fc3134f3188",
+      "parameters": {
+        "appName": "MyRetirement",
+        "controllerFileName": "Setup",
+        "controllerName": "Setup",
+        "controllerNamespace": "MyRetirement.controller",
+        "name": "Setup"
+      }
+    },
+    "app/controller/Viewport.js": {
+      "source": "{controllerFileName}.js.tpl.merge",
+      "version": "b092f4aad11d2f7eaab5ce3e2dcc2fc3134f3188",
+      "parameters": {
+        "appName": "MyRetirement",
+        "controllerFileName": "Viewport",
+        "controllerName": "Viewport",
+        "controllerNamespace": "MyRetirement.controller",
+        "name": "Viewport"
+      }
+    },
+    "app/view/Setup.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "Setup",
+        "viewFileName": "Setup",
+        "viewName": "Setup"
       }
     }
   }
