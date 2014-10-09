@@ -1,0 +1,136 @@
+body .x-panel-body.x-panel-body-default.x-layout-fit {
+	z-index: 2 !important;
+}
+
+.data-panel-ct-body {
+	width: 722px !important;
+}
+
+.x-tab, .x-nbr .x-tab-default-top {
+	border-right: 1px solid #967893 !important;
+}
+
+.primary-tabs .x-tab-bar-body {
+	top: 4px !important;
+}
+
+body .x-btn-primary-large-noicon {
+	width: 100% !important;
+}
+
+.module-nav-quirks9 {
+	.x-btn-icon {
+		height: 25px;
+		width: 21px;
+	}
+}
+
+body .main-nav .x-btn {
+	width: 9em !important;
+	text-align: center !important;
+	height: 30px !important;
+	padding: 5px 0 !important;
+	line-height: normal !important;
+}
+
+body .main-nav .x-btn em {
+	text-align: center !important;
+	height: auto !important;
+	padding: 0 !important;
+	line-height: normal !important;
+}
+
+.main-nav .x-btn-primary-large .x-btn-inner, .main-nav .x-btn-secondary-large .x-btn-inner {
+	width: 100% !important;
+}
+
+/* Position the module nav buttons */
+body .x-container.module-nav.x-container-default.x-box-layout-ct {
+	right: 0 !important;
+	width: 100px !important;
+}
+
+body .x-container.module-nav.x-container-default.x-box-layout-ct .x-btn.x-box-item.x-btn-plain-small.x-icon.x-btn-icon.x-btn-plain-small-icon {
+	margin-right: 10px !important;
+	position: static !important;
+}
+
+body .x-container.module-nav.x-container-default.x-box-layout-ct .x-box-inner {
+	width: 100px !important;
+	height: 27px;
+}
+
+body .x-window-header.x-window-header-draggable.x-docked.x-window-header-default.x-horizontal.x-window-header-horizontal.x-window-header-default-horizontal.x-top.x-window-header-top.x-window-header-default-top {
+	background: #582C61 !important;
+}
+
+body .x-window-header-text.x-window-header-text-default {
+	display: inline-block !important;
+	margin-top: 12px !important;
+	padding-left: 13px !important;
+}
+
+body .x-frame-ml.x-window-ml.x-window-default-ml.x-window-default-closable-ml {
+	padding-top: 6px !important;
+}
+
+body .x-tool.x-box-item.x-tool-default {
+	margin: -11px !important;
+	float: left;
+	top: 12px !important;
+}
+
+body .comparison-panel td {
+	padding-right: 0 !important;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+body .comparison-panel td.x-component {
+	padding-right: 2em !important;
+	padding-top: 0.5em !important;
+	padding-bottom: 0.5em !important;
+}
+
+body .x-panel-body.data-panel-body.x-panel-body-default.x-panel-body-default {
+	padding-bottom: 15px !important;
+}
+
+body .x-panel.data-panel.take-home-pay.x-fit-item.x-panel-default, body .x-btn.x-btn-default-small.x-noicon.x-btn-noicon.x-btn-default-small-noicon, body .x-container.main-nav.x-container-default {
+	margin-bottom: 15px !important;
+}
+
+body .my-budget {
+	margin-bottom: 15px !important;
+}
+
+body .my-budget .field-percent {
+	padding-left: 30px !important;
+}
+
+body .assets-investmentaccounts .field-percent {
+	text-align: right !important;
+}
+
+.whatif-chart, .whatif-chart-participant {
+	.baseline {
+		margin-left: -370px;
+		width: 730px;
+	}
+
+	.stack {
+		width: 50%;
+	}
+}
+
+.panel-body-header {
+	.save-more-title {
+		min-width: 50.2em;
+		width: 50.2em;
+	}
+
+	.save-more-title-quirks9 {
+		min-width: 51.5em;
+		width: 51.5em;
+	}
+}
