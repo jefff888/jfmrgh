@@ -21,6 +21,9 @@ Ext.define('MyRetirement.view.Main', {
         xtype: 'tabpanel',
         items:[{
             title: 'Center Tab 1'
+        },{
+            title: 'Setup'
+            ,xtype: 'setup-panel'
         }]
     }]
 });

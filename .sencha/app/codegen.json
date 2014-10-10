@@ -41,6 +41,9 @@
     },
     "{viewFileName}.js.tpl.merge": {
       "acde5ea901286ca2f976bcddea23e159dbaa0e6f": "eJxzrSjRS0lNy8xL1VCqTiwo8EvMTa3VK8tMLderBpFgvpKOQjWXAhCkVpSk5qVYKai7ArU55+cW5Oel5pWo64AlM0pyc4BSHqk5Ofk6CuH5RTkpiorqXLWa1gDU/CBX"
+    },
+    "{modelFileName}.js.tpl.merge": {
+      "31d5356142a167c72422f7902f19df3c583f3249": "eJxlUcFugzAMvfMVVqUq0CLorlC6w7TrfgBxSMG00dKAktAxRfn3GWg7rfMhdvKeX16c99EmDbZCYcjcpWtQfvALmp7X6BOnqPYsBhcABY4WVZMBc0du8E1yYwicoXlpBcrGZFC69byf4srlgCZZICggbAdVW9Epquaz6CZ+j7bTEF65Bo2W+GUVQ8+1nXqXhsT0UtiQxSyKQdDxLqe0X1iJRHWy5xy2W/GsvNjR0FLPTC5FdRfLWJT/I5ODpB/MOXQwDSKDttyRHfvdz/VLBf6pywfBk8Cg1ZTyX8BH4Z+h3CTWfm97OT2/WC3A6vDouRtgjx9ZTDA3Zc/AuxLCUagGRygKGOtuUDaCV2AMiBYzqPw+pQsOgVtDuoGj5OoTJP072I4cNkONcEF9Qqg71UpR08i/0sGgBmwEbTYpeZwdVcH07h/XJaFF"
     }
   },
   "targets": {
@@ -398,6 +401,54 @@
         "name": "Setup",
         "viewFileName": "Setup",
         "viewName": "Setup"
+      }
+    },
+    "app/model/Enumeration.js": {
+      "source": "{modelFileName}.js.tpl.merge",
+      "version": "31d5356142a167c72422f7902f19df3c583f3249",
+      "parameters": {
+        "appName": "MyRetirement",
+        "baseClass": "Ext.data.Model",
+        "fields": "label:string:null,sortOrder:int:null,value:int:null",
+        "modelFileName": "Enumeration",
+        "modelNamespace": "MyRetirement.model",
+        "name": "Enumeration"
+      }
+    },
+    "app/model/asset/Growth.js": {
+      "source": "{modelFileName}.js.tpl.merge",
+      "version": "31d5356142a167c72422f7902f19df3c583f3249",
+      "parameters": {
+        "appName": "MyRetirement",
+        "baseClass": "Ext.data.Model",
+        "fields": "assetsToRetirement:auto:null",
+        "modelFileName": "asset/Growth",
+        "modelNamespace": "MyRetirement.model",
+        "name": "asset.Growth"
+      }
+    },
+    "app/model/asset/Retirement.js": {
+      "source": "{modelFileName}.js.tpl.merge",
+      "version": "31d5356142a167c72422f7902f19df3c583f3249",
+      "parameters": {
+        "appName": "MyRetirement",
+        "baseClass": "Ext.data.Model",
+        "fields": "id:auto:null,name:auto:null",
+        "modelFileName": "asset/Retirement",
+        "modelNamespace": "MyRetirement.model",
+        "name": "asset.Retirement"
+      }
+    },
+    "app/model/asset/RetirementComposition.js": {
+      "source": "{modelFileName}.js.tpl.merge",
+      "version": "31d5356142a167c72422f7902f19df3c583f3249",
+      "parameters": {
+        "appName": "MyRetirement",
+        "baseClass": "Ext.data.Model",
+        "fields": "id:auto:null,name:auto:null",
+        "modelFileName": "asset/RetirementComposition",
+        "modelNamespace": "MyRetirement.model",
+        "name": "asset.RetirementComposition"
       }
     }
   }

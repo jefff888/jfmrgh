@@ -1,0 +1,1345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc37f170-ebc9-4c7f-b55d-241f492ef527" name="Default" comment="Valid build with a little more old MyRetirement code.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/arrow-left-white.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/arrow-right-white.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/button/arrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/arrows-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/arrows.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/shared/blue-loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/button/btn.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/shared/calendar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/cell-special-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/cell-special-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/cell-special-selected-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/cell-special-selected-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/checkbox.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/menu/checked.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/clear-trigger-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/clear-trigger.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/col-move-bottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/col-move-top.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/columns.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/box/corners-blue.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/box/corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/date-trigger-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/date-trigger.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/dd-insert-arrow-left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/dd-insert-arrow-left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/dd-insert-arrow-right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/dd-insert-arrow-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tab-bar/default-scroll-bottom-left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tab-bar/default-scroll-bottom-right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tab-bar/default-scroll-left-bottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tab-bar/default-scroll-left-top.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tab-bar/default-scroll-right-bottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tab-bar/default-scroll-right-top.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tab-bar/default-scroll-top-left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tab-bar/default-scroll-top-right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/dirty-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/dirty.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/done.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/drop-above.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/dd/drop-add.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/drop-add.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/drop-append.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/drop-below.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/drop-between.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/dd/drop-no.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/drop-no.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/drop-no.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/drop-over.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/drop-under.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/dd/drop-yes.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/drop-yes.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/drop-yes.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/sizer/e-handle-dark.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/sizer/e-handle.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-end-minus-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-end-minus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-end-plus-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-end-plus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-end-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-end.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-line-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-line.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-minus-nl-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-minus-nl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-minus-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-minus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-plus-nl-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-plus-nl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-plus-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-plus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/error-tip-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/exclamation.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/folder-open-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/folder-open.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/folder-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/folder.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/footer-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/shared/glass-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/grid-blue-hd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/grid-blue-split.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/grid-hrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/grid-loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/grid-split.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/grid-vista-hd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/grid3-hd-btn-left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/grid3-hd-btn.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/grid3-hrow-over.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/grid3-hrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/grid3-rowheader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/group-by.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/menu/group-checked.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/group-collapse.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/button/group-cs.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/group-expand-sprite.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/group-expand.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/button/group-lr.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/button/group-tb.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/hd-pop.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/shared/hd-sprite.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/hmenu-asc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/hmenu-desc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/hmenu-lock.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/hmenu-lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/hmenu-unlock.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/hmenu-unlock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/shared/icon-error.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/shared/icon-info.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/shared/icon-question.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/shared/icon-warning.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/invalid_line.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/menu/item-over.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/box/l-blue.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/box/l.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/shared/large-loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/leaf-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/leaf.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/shared/left-btn.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/shared/loading-balls.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/menu/menu-parent-left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/menu/menu-parent.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/menu/menu.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/layout/mini-bottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/util/splitter/mini-bottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/layout/mini-left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/util/splitter/mini-left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/layout/mini-right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/util/splitter/mini-right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/layout/mini-top.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/util/splitter/mini-top.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/toolbar/more-left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/toolbar/more.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/mso-hd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/sizer/ne-handle-dark.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/sizer/ne-handle.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/nowait.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/sizer/nw-handle-dark.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/sizer/nw-handle.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/page-first-disabled.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/page-first.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/page-last-disabled.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/page-last.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/page-next-disabled.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/page-next.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/page-prev-disabled.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/page-prev.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/pick-button.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/property-cell-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/property-cell-selected-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/box/r-blue.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/box/r.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/radio.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/refresh-disabled.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/refresh.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/shared/right-btn.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/row-check-sprite.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/row-expand-sprite.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/row-over.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/row-sel.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/button/s-arrow-b-noline.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/button/s-arrow-b.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/button/s-arrow-bo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/button/s-arrow-light-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/button/s-arrow-light.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/button/s-arrow-noline-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/button/s-arrow-noline.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/button/s-arrow-o-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/button/s-arrow-o.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/button/s-arrow-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/button/s-arrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/sizer/s-handle-dark.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/sizer/s-handle.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/s.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/menu/scroll-bottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/toolbar/scroll-left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/toolbar/scroll-right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/menu/scroll-top.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/sizer/se-handle-dark.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/sizer/se-handle.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/search-trigger-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/search-trigger.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/shared/shadow-c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/shared/shadow-lr.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/shared/shadow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/slider/slider-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/slider/slider-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/slider/slider-thumb.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/slider/slider-thumb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/slider/slider-v-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/slider/slider-v-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/slider/slider-v-thumb.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/slider/slider-v-thumb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/sort-hd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/sort_asc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/sort_desc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/spinner-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/spinner-small-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/spinner-small.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/spinner.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/sizer/square.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/sizer/sw-handle-dark.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/sizer/sw-handle.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tab/tab-default-close.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/box/tb-blue.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/editor/tb-sprite.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/box/tb.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/text-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tools/tool-sprite-tpl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tools/tool-sprites.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tools/tools-sprites-trans.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/boundlist/trigger-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/trigger-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/trigger-square-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/trigger-square.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/trigger-tpl-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/trigger-tpl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/trigger.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/menu/unchecked.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/wait.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/shared/warning.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/model/Enumeration.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/model/asset/Growth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/MyRetirement-all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/model/asset/Retirement.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/model/asset/RetirementComposition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/example/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/compass_library.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/config.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/example/example.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mret42.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/stats.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Application.js" afterPath="$PROJECT_DIR$/app/Application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/Main.js" afterPath="$PROJECT_DIR$/app/view/Main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/Setup.js" afterPath="$PROJECT_DIR$/app/view/Setup.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/app.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap.css" afterPath="$PROJECT_DIR$/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap.js" afterPath="$PROJECT_DIR$/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sencha/app/codegen.json" afterPath="$PROJECT_DIR$/.sencha/app/codegen.json" />
+    </list>
+    <ignored path="build/.sass-cache/" />
+    <ignored path="build/temp/" />
+    <ignored path="resources/sass/.sass-cache/" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="my retirement 42" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Application.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="475">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controller/Main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="171">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/view/Main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.56213015" vertical-offset="0" max-vertical-offset="845">
+              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="437">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Setup.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/Setup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="190">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app/app.js" />
+        <option value="$PROJECT_DIR$/app.json" />
+        <option value="$PROJECT_DIR$/app/Application.js" />
+        <option value="$PROJECT_DIR$/bootstrap.js" />
+        <option value="$PROJECT_DIR$/app/view/Setup.js" />
+        <option value="$PROJECT_DIR$/app/view/Main.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="469" />
+    <option name="y" value="10" />
+    <option name="width" value="1447" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my retirement 42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my retirement 42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mret42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my retirement 42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mret42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="production" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyRetirement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my retirement 42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mret42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="production" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyRetirement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my retirement 42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mret42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="development" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyRetirement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my retirement 42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mret42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my retirement 42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mret42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my retirement 42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mret42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my retirement 42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mret42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my retirement 42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mret42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asset" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my retirement 42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mret42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Ignored.Files" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/sass/.sass-cache" />
+    <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jeff.furgal\src\mret42\app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mret42" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mret42" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mret42" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mret42" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AntRunConfigurationType" factoryName="Ant build" debug-port="25000" max-memory="256" logging-level="0">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mret42" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mret42" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="mret42" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <list size="0" />
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc37f170-ebc9-4c7f-b55d-241f492ef527" name="Default" comment="" />
+      <created>1412195822308</created>
+      <updated>1412195822308</updated>
+      <workItem from="1412195828213" duration="4027000" />
+      <workItem from="1412353596465" duration="1144000" />
+      <workItem from="1412962577003" duration="420000" />
+      <workItem from="1412964520106" duration="1150000" />
+      <workItem from="1412975213255" duration="518000" />
+      <workItem from="1412975758435" duration="970000" />
+    </task>
+    <task id="LOCAL-00001" summary="Adding initial project from Sencha Cmd generate.">
+      <created>1412196835069</created>
+      <updated>1412196835069</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adding initial optimized build of default app from Sencha Cmd app build.">
+      <created>1412197666508</created>
+      <updated>1412197666508</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adding some initial old MyRetirement code.">
+      <created>1412199304000</created>
+      <updated>1412199304000</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adding more old MyRetirement code.">
+      <created>1412199907447</created>
+      <updated>1412199907447</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8229000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="469" y="10" width="1447" height="1032" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951945" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951945" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951945" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Notes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2137784" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951945" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="Adding initial project from Sencha Cmd generate." />
+    <MESSAGE value="Adding initial optimized build of default app from Sencha Cmd app build." />
+    <MESSAGE value="Adding some initial old MyRetirement code." />
+    <MESSAGE value="Adding more old MyRetirement code." />
+    <MESSAGE value="Valid build with a little more old MyRetirement code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Valid build with a little more old MyRetirement code." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="475">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="171">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="646">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="114">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="437">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="190">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="475">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="171">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="646">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="437">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="190">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="247">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="42161">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="437">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="247">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="35226" max-vertical-offset="42123">
+          <caret line="1858" column="4" selection-start-line="1858" selection-start-column="4" selection-end-line="1858" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1501" max-vertical-offset="1653">
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="830" max-vertical-offset="1634">
+          <caret line="62" column="40" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/example/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="845">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="845">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.sencha/app/microloader/development.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8629808" vertical-offset="2854" max-vertical-offset="3686">
+          <caret line="188" column="5" selection-start-line="188" selection-start-column="5" selection-end-line="188" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.sencha/app/app.defaults.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7906977" vertical-offset="1311" max-vertical-offset="2128">
+          <caret line="103" column="27" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.sencha/workspace/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="845">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.sencha/workspace/sencha.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="845">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.sencha/app/defaults.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13604">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="845">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/production/MyRetirement/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="832">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.023255814" vertical-offset="0" max-vertical-offset="817">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/asset/Growth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="557">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36764705" vertical-offset="12169" max-vertical-offset="39577">
+          <caret line="651" column="36" selection-start-line="651" selection-start-column="36" selection-end-line="651" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="845">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/Setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="557">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="557">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="190">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="437">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06822262" vertical-offset="0" max-vertical-offset="557">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56213015" vertical-offset="0" max-vertical-offset="845">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>addressable (v2.3.6, ruby-1.9.3-p286) [gem]</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>mret42</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>compass-library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

@@ -422,7 +422,6 @@ Ext.ClassManager.addNameAlternateMappings({
   ],
   "Ext.grid.RowEditor": [],
   "Ext.grid.RowEditorButtons": [],
-  "Ext.grid.Scroller": [],
   "Ext.grid.View": [],
   "Ext.grid.ViewDropZone": [],
   "Ext.grid.column.Action": [
@@ -854,6 +853,10 @@ Ext.ClassManager.addNameAlternateMappings({
   "MyRetirement.controller.Main": [],
   "MyRetirement.controller.Setup": [],
   "MyRetirement.controller.Viewport": [],
+  "MyRetirement.model.Enumeration": [],
+  "MyRetirement.model.asset.Growth": [],
+  "MyRetirement.model.asset.Retirement": [],
+  "MyRetirement.model.asset.RetirementComposition": [],
   "MyRetirement.view.Main": [],
   "MyRetirement.view.Setup": [],
   "MyRetirement.view.Viewport": []
@@ -1295,7 +1298,6 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.grid.RowEditorButtons": [
     "widget.roweditorbuttons"
   ],
-  "Ext.grid.Scroller": [],
   "Ext.grid.View": [
     "widget.gridview"
   ],
@@ -1860,10 +1862,16 @@ Ext.ClassManager.addNameAliasMappings({
   "MyRetirement.controller.Main": [],
   "MyRetirement.controller.Setup": [],
   "MyRetirement.controller.Viewport": [],
+  "MyRetirement.model.Enumeration": [],
+  "MyRetirement.model.asset.Growth": [],
+  "MyRetirement.model.asset.Retirement": [],
+  "MyRetirement.model.asset.RetirementComposition": [],
   "MyRetirement.view.Main": [
     "widget.app-main"
   ],
-  "MyRetirement.view.Setup": [],
+  "MyRetirement.view.Setup": [
+    "widget.setup-panel"
+  ],
   "MyRetirement.view.Viewport": []
 });
 

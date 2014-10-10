@@ -4,11 +4,13 @@ Ext.define('MyRetirement.Application', {
     extend: 'Ext.app.Application',
 
     views: [
-        // TODO: add views here
+        'Setup'
+        ,'Viewport'
     ],
 
     controllers: [
-        // TODO: add controllers here
+        'Setup'
+        ,'Viewport'
     ],
 
     stores: [
