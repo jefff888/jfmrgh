@@ -17,7 +17,9 @@ Ext.Loader.addClassPathMappings({
   "Ext.Supports": "ext/src/Support.js",
   "Ext.core.DomHelper": "ext/src/dom/Helper.js",
   "Ext.core.DomQuery": "ext/src/dom/Query.js",
-  "MyRetirement": "app"
+  "MyRetirement": "app",
+  'Ext.ux': 'resources/ux',
+  'Jarvus': 'resources/Jarvus'
 });
 
 Ext.ClassManager.addNameAlternateMappings({
