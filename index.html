@@ -33,6 +33,19 @@
         <!-- <x-bootstrap> -->
             <link rel="stylesheet" href="bootstrap.css">
             <script src="ext/ext-dev.js"></script>
+            <script>
+                Ext.Loader.setConfig({
+                    enabled: true
+                    ,paths: {
+                        'Ext.ux': 'ux'
+                        ,'Jarvus': 'Jarvus'
+                        ,'MyRetirement': 'app'
+                    }
+        //					,disableCaching: !location.search.match(/no_dc/)
+                    ,disableCaching: false
+        //		,disableCaching: true
+                });
+            </script>
             <script src="bootstrap.js"></script>
         <!-- </x-bootstrap> -->
         <script src="app.js"></script>

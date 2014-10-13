@@ -15,9 +15,11 @@ Ext.Loader.addClassPathMappings({
   "Ext.EventObjectImpl": "ext/src/EventObject.js",
   "Ext.Msg": "ext/src/window/MessageBox.js",
   "Ext.Supports": "ext/src/Support.js",
+  "Ext.chart.theme.MyRetirement": "app/ChartThemes.js",
   "Ext.core.DomHelper": "ext/src/dom/Helper.js",
   "Ext.core.DomQuery": "ext/src/dom/Query.js",
-  "MyRetirement": "app"
+  "MyRetirement": "app",
+  "Jarvus.field.Select": "Jarvus/field/Select.js"
 });
 
 Ext.ClassManager.addNameAlternateMappings({
@@ -128,6 +130,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.chart.series.Scatter": [],
   "Ext.chart.series.Series": [],
   "Ext.chart.theme.Base": [],
+  "Ext.chart.theme.MyRetirement": [],
   "Ext.chart.theme.Theme": [],
   "Ext.container.AbstractContainer": [],
   "Ext.container.ButtonGroup": [
@@ -422,6 +425,7 @@ Ext.ClassManager.addNameAlternateMappings({
   ],
   "Ext.grid.RowEditor": [],
   "Ext.grid.RowEditorButtons": [],
+  "Ext.grid.Scroller": [],
   "Ext.grid.View": [],
   "Ext.grid.ViewDropZone": [],
   "Ext.grid.column.Action": [
@@ -849,7 +853,11 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.window.Window": [
     "Ext.Window"
   ],
+  "MyRetirement.API": [],
   "MyRetirement.Application": [],
+  "MyRetirement.ChartThemes": [],
+  "MyRetirement.VARS": [],
+  "MyRetirement.chart.MonthlyIncome": [],
   "MyRetirement.controller.Assets": [],
   "MyRetirement.controller.Comparison": [],
   "MyRetirement.controller.Development": [],
@@ -863,6 +871,16 @@ Ext.ClassManager.addNameAlternateMappings({
   "MyRetirement.controller.Withdrawal": [],
   "MyRetirement.controller.relius.AboutYou": [],
   "MyRetirement.controller.relius.DisclaimerTab": [],
+  "MyRetirement.direct.RemotingProvider": [],
+  "MyRetirement.field.Enumeration": [],
+  "MyRetirement.field.FieldDatePicker": [],
+  "MyRetirement.field.InputIe": [],
+  "MyRetirement.field.IntegerIe": [],
+  "MyRetirement.field.PercentSlider": [],
+  "MyRetirement.field.RelativeDate": [],
+  "MyRetirement.field.RelativeDateForIe": [],
+  "MyRetirement.field.SaveMoreSlider": [],
+  "MyRetirement.help.HelpMap": [],
   "MyRetirement.model.Enumeration": [],
   "MyRetirement.model.asset.Growth": [],
   "MyRetirement.model.asset.Retirement": [],
@@ -881,6 +899,9 @@ Ext.ClassManager.addNameAlternateMappings({
   "MyRetirement.model.whatif.SavingMore": [],
   "MyRetirement.model.withdrawal.AssetAllocation": [],
   "MyRetirement.model.withdrawal.RateData": [],
+  "MyRetirement.proxy.Direct": [],
+  "MyRetirement.validation.Enumeration": [],
+  "MyRetirement.validation.Relius": [],
   "MyRetirement.view.AppPanel": [],
   "MyRetirement.view.ChartPanel": [],
   "MyRetirement.view.DataHeader": [],
@@ -1047,6 +1068,7 @@ Ext.ClassManager.addNameAliasMappings({
   ],
   "Ext.chart.series.Series": [],
   "Ext.chart.theme.Base": [],
+  "Ext.chart.theme.MyRetirement": [],
   "Ext.chart.theme.Theme": [],
   "Ext.container.AbstractContainer": [],
   "Ext.container.ButtonGroup": [
@@ -1372,6 +1394,7 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.grid.RowEditorButtons": [
     "widget.roweditorbuttons"
   ],
+  "Ext.grid.Scroller": [],
   "Ext.grid.View": [
     "widget.gridview"
   ],
@@ -1932,7 +1955,13 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.window.Window": [
     "widget.window"
   ],
+  "MyRetirement.API": [],
   "MyRetirement.Application": [],
+  "MyRetirement.ChartThemes": [],
+  "MyRetirement.VARS": [],
+  "MyRetirement.chart.MonthlyIncome": [
+    "widget.monthlyincomechart"
+  ],
   "MyRetirement.controller.Assets": [],
   "MyRetirement.controller.Comparison": [],
   "MyRetirement.controller.Development": [],
@@ -1946,6 +1975,34 @@ Ext.ClassManager.addNameAliasMappings({
   "MyRetirement.controller.Withdrawal": [],
   "MyRetirement.controller.relius.AboutYou": [],
   "MyRetirement.controller.relius.DisclaimerTab": [],
+  "MyRetirement.direct.RemotingProvider": [
+    "direct.apiprovider"
+  ],
+  "MyRetirement.field.Enumeration": [
+    "widget.enumerationfield"
+  ],
+  "MyRetirement.field.FieldDatePicker": [
+    "widget.fielddatepicker"
+  ],
+  "MyRetirement.field.InputIe": [
+    "widget.inputfieldie"
+  ],
+  "MyRetirement.field.IntegerIe": [
+    "widget.integerfieldie"
+  ],
+  "MyRetirement.field.PercentSlider": [
+    "widget.percentslider"
+  ],
+  "MyRetirement.field.RelativeDate": [
+    "widget.relativedatefield"
+  ],
+  "MyRetirement.field.RelativeDateForIe": [
+    "widget.relativedatefieldie"
+  ],
+  "MyRetirement.field.SaveMoreSlider": [
+    "widget.savemoreslider"
+  ],
+  "MyRetirement.help.HelpMap": [],
   "MyRetirement.model.Enumeration": [],
   "MyRetirement.model.asset.Growth": [],
   "MyRetirement.model.asset.Retirement": [],
@@ -1964,6 +2021,11 @@ Ext.ClassManager.addNameAliasMappings({
   "MyRetirement.model.whatif.SavingMore": [],
   "MyRetirement.model.withdrawal.AssetAllocation": [],
   "MyRetirement.model.withdrawal.RateData": [],
+  "MyRetirement.proxy.Direct": [
+    "proxy.apidirect"
+  ],
+  "MyRetirement.validation.Enumeration": [],
+  "MyRetirement.validation.Relius": [],
   "MyRetirement.view.AppPanel": [],
   "MyRetirement.view.ChartPanel": [],
   "MyRetirement.view.DataHeader": [],
