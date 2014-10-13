@@ -652,6 +652,36 @@
         "name": "Development"
       }
     },
+    "app/view/AppPanel.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "AppPanel",
+        "viewFileName": "AppPanel",
+        "viewName": "AppPanel"
+      }
+    },
+    "app/view/ChartPanel.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "ChartPanel",
+        "viewFileName": "ChartPanel",
+        "viewName": "ChartPanel"
+      }
+    },
+    "app/view/DataHeader.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "DataHeader",
+        "viewFileName": "DataHeader",
+        "viewName": "DataHeader"
+      }
+    },
     "app/controller/Help.js": {
       "source": "{controllerFileName}.js.tpl.merge",
       "version": "b092f4aad11d2f7eaab5ce3e2dcc2fc3134f3188",
@@ -672,6 +702,17 @@
         "controllerName": "Income",
         "controllerNamespace": "MyRetirement.controller",
         "name": "Income"
+      }
+    },
+    "app/controller/WhatIf.js": {
+      "source": "{controllerFileName}.js.tpl.merge",
+      "version": "b092f4aad11d2f7eaab5ce3e2dcc2fc3134f3188",
+      "parameters": {
+        "appName": "MyRetirement",
+        "controllerFileName": "WhatIf",
+        "controllerName": "WhatIf",
+        "controllerNamespace": "MyRetirement.controller",
+        "name": "WhatIf"
       }
     },
     "app/controller/WhatIfParticipant.js": {
@@ -998,6 +1039,16 @@
         "viewName": "setup.RetirementYearsChart"
       }
     },
+    "app/view/whatIf/Chart.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "whatIf.Chart",
+        "viewFileName": "whatIf/Chart",
+        "viewName": "whatIf.Chart"
+      }
+    },
     "app/view/whatIf/ChartParticipant.js": {
       "source": "{viewFileName}.js.tpl.merge",
       "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
@@ -1006,6 +1057,16 @@
         "name": "whatIf.ChartParticipant",
         "viewFileName": "whatIf/ChartParticipant",
         "viewName": "whatIf.ChartParticipant"
+      }
+    },
+    "app/view/whatIf/Footer.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "whatIf.Footer",
+        "viewFileName": "whatIf/Footer",
+        "viewName": "whatIf.Footer"
       }
     },
     "app/view/whatIf/FooterParticipant.js": {
@@ -1018,6 +1079,16 @@
         "viewName": "whatIf.FooterParticipant"
       }
     },
+    "app/view/whatIf/Panel.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "whatIf.Panel",
+        "viewFileName": "whatIf/Panel",
+        "viewName": "whatIf.Panel"
+      }
+    },
     "app/view/whatIf/PanelParticipant.js": {
       "source": "{viewFileName}.js.tpl.merge",
       "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
@@ -1026,6 +1097,16 @@
         "name": "whatIf.PanelParticipant",
         "viewFileName": "whatIf/PanelParticipant",
         "viewName": "whatIf.PanelParticipant"
+      }
+    },
+    "app/view/whatIf/Table.js": {
+      "source": "{viewFileName}.js.tpl.merge",
+      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+      "parameters": {
+        "appName": "MyRetirement",
+        "name": "whatIf.Table",
+        "viewFileName": "whatIf/Table",
+        "viewName": "whatIf.Table"
       }
     },
     "app/view/whatIf/TableParticipant.js": {
@@ -1108,36 +1189,6 @@
         "viewName": "relius.PersonalInfoForm"
       }
     },
-    "app/view/AppPanel.js": {
-      "source": "{viewFileName}.js.tpl.merge",
-      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
-      "parameters": {
-        "appName": "MyRetirement",
-        "name": "AppPanel",
-        "viewFileName": "AppPanel",
-        "viewName": "AppPanel"
-      }
-    },
-    "app/view/ChartPanel.js": {
-      "source": "{viewFileName}.js.tpl.merge",
-      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
-      "parameters": {
-        "appName": "MyRetirement",
-        "name": "ChartPanel",
-        "viewFileName": "ChartPanel",
-        "viewName": "ChartPanel"
-      }
-    },
-    "app/view/DataHeader.js": {
-      "source": "{viewFileName}.js.tpl.merge",
-      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
-      "parameters": {
-        "appName": "MyRetirement",
-        "name": "DataHeader",
-        "viewFileName": "DataHeader",
-        "viewName": "DataHeader"
-      }
-    },
     "app/view/DataPanel.js": {
       "source": "{viewFileName}.js.tpl.merge",
       "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
@@ -1178,14 +1229,16 @@
         "viewName": "ModuleTools"
       }
     },
-    "app/view/Viewport.js": {
-      "source": "{viewFileName}.js.tpl.merge",
-      "version": "acde5ea901286ca2f976bcddea23e159dbaa0e6f",
+    "app/model/asset/Investment.js": {
+      "source": "{modelFileName}.js.tpl.merge",
+      "version": "31d5356142a167c72422f7902f19df3c583f3249",
       "parameters": {
         "appName": "MyRetirement",
-        "name": "Viewport",
-        "viewFileName": "Viewport",
-        "viewName": "Viewport"
+        "baseClass": "Ext.data.Model",
+        "fields": "id:auto:null,name:auto:null",
+        "modelFileName": "asset/Investment",
+        "modelNamespace": "MyRetirement.model",
+        "name": "asset.Investment"
       }
     }
   }

@@ -1,10 +1,10 @@
 #!/bin/bash
 
-#sencha generate workspace "C:\Users\jeff.furgal\Workspaces\Planning01\PlanningStation\ext5"
+sencha generate workspace "C:\Users\jeff.furgal\Workspaces\Planning01\PlanningStation\ext5"
 
-#sencha -sdk /c/Users/jeff.furgal/src/ext-5.0.1 generate app MyRetirement "C:\Users\jeff.furgal\Workspaces\Planning01\PlanningStation\ext5\myRetirement"
+sencha -sdk /c/Users/jeff.furgal/src/ext-5.0.1 generate app MyRetirement "C:\Users\jeff.furgal\Workspaces\Planning01\PlanningStation\ext5\myRetirement"
 
-#pushd /c/Users/jeff.furgal/Workspaces/Planning01/PlanningStation/ext5
+pushd /c/Users/jeff.furgal/Workspaces/Planning01/PlanningStation/ext5
 
 # Generate Models
 echo Generating Models...
@@ -12,6 +12,7 @@ echo Generating Models...
 sencha generate model Enumeration label:string,sortOrder:int,value:int
 
 sencha generate model asset.Growth assetsToRetirement
+sencha generate model asset.Investment id,name
 sencha generate model asset.Retirement id,name
 sencha generate model asset.RetirementComposition id,name
 

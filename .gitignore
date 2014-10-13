@@ -1,6 +1,4 @@
-"MyRetirement 4.2 Port.iws"
-.idea/workspace.xml
-build/.sass-cache/
-build/temp/
-resources/sass/sass-cache/
-build.log
+/build/temp/
+/build/.sass-cache/
+/resources/sass/.sass-cache/
+/build/production/MyRetirement/resources/sass/.sass-cache

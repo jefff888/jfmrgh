@@ -15,11 +15,20 @@ Ext.Loader.addClassPathMappings({
   "Ext.EventObjectImpl": "ext/src/EventObject.js",
   "Ext.Msg": "ext/src/window/MessageBox.js",
   "Ext.Supports": "ext/src/Support.js",
+  "Ext.chart.theme.MyRetirement": "app/ChartThemes.js",
   "Ext.core.DomHelper": "ext/src/dom/Helper.js",
   "Ext.core.DomQuery": "ext/src/dom/Query.js",
-  "MyRetirement": "app",
-  'Ext.ux': 'resources/ux',
-  'Jarvus': 'resources/Jarvus'
+  "Ext.ux.chart": "ux/chart",
+  "Jarvus": "Jarvus",
+  "Jarvus.field.Boolean": "Jarvus/rawfield/Boolean.js",
+  "Jarvus.field.Float": "Jarvus/rawfield/Float.js",
+  "Jarvus.field.Input": "Jarvus/rawfield/Input.js",
+  "Jarvus.field.Integer": "Jarvus/rawfield/Integer.js",
+  "Jarvus.field.Money": "Jarvus/rawfield/Money.js",
+  "Jarvus.field.Percent": "Jarvus/rawfield/Percent.js",
+  "Jarvus.field.Select": "Jarvus/rawfield/Select.js",
+  "Jarvus.field.Template": "Jarvus/rawfield/Template.js",
+  "MyRetirement": "app"
 });
 
 Ext.ClassManager.addNameAlternateMappings({
@@ -130,6 +139,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.chart.series.Scatter": [],
   "Ext.chart.series.Series": [],
   "Ext.chart.theme.Base": [],
+  "Ext.chart.theme.MyRetirement": [],
   "Ext.chart.theme.Theme": [],
   "Ext.container.AbstractContainer": [],
   "Ext.container.ButtonGroup": [
@@ -801,6 +811,9 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.ux.ajax.SimXhr": [],
   "Ext.ux.ajax.Simlet": [],
   "Ext.ux.ajax.XmlSimlet": [],
+  "Ext.ux.chart.axis.Snappy": [
+    "Ext.chart.SnappyAxis"
+  ],
   "Ext.ux.data.PagingMemoryProxy": [
     "Ext.data.PagingMemoryProxy"
   ],
@@ -851,7 +864,55 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.window.Window": [
     "Ext.Window"
   ],
+  "Jarvus.chart.axis.PriorityNumeric": [],
+  "Jarvus.container.Raw": [],
+  "Jarvus.container.table.DetailRow": [],
+  "Jarvus.container.table.Expando": [],
+  "Jarvus.container.table.FieldTable": [],
+  "Jarvus.container.table.Header": [],
+  "Jarvus.container.table.ListFieldTable": [],
+  "Jarvus.container.table.Row": [],
+  "Jarvus.container.table.Segment": [],
+  "Jarvus.data.writer.MappedJson": [],
+  "Jarvus.field.Age": [],
+  "Jarvus.field.BigMoney": [],
+  "Jarvus.field.BigMoneyTemplate": [],
+  "Jarvus.field.Boolean": [],
+  "Jarvus.field.Field": [],
+  "Jarvus.field.Float": [],
+  "Jarvus.field.Input": [],
+  "Jarvus.field.Integer": [],
+  "Jarvus.field.Money": [],
+  "Jarvus.field.Percent": [],
+  "Jarvus.field.PercentTemplate": [],
+  "Jarvus.field.Select": [],
+  "Jarvus.field.Template": [],
+  "Jarvus.layout.container.AutoTarget": [],
+  "Jarvus.layout.container.Raw": [],
+  "Jarvus.mixin.DataApplicator": [],
+  "Jarvus.mixin.Fieldable": [],
+  "Jarvus.mixin.Formable": [],
+  "Jarvus.mixin.LinkEvents": [],
+  "Jarvus.patch.ConditionalValidation": [],
+  "Jarvus.patch.HistoryPaths": [],
+  "Jarvus.patch.HistoryTrail": [],
+  "Jarvus.patch.SoftLocalStorage": [],
+  "Jarvus.patch.StoreValidation": [],
+  "Jarvus.patch.TriggerEvent": [],
+  "Jarvus.table.DeleteCell": [],
+  "Jarvus.table.ExpandCell": [],
+  "Jarvus.table.FillerCell": [],
+  "Jarvus.table.IconCell": [],
+  "Jarvus.validation.Number": [],
+  "Jarvus.widget.HorizontalRule": [],
+  "Jarvus.widget.chart.Container": [],
+  "Jarvus.widget.chart.Legend": [],
+  "Jarvus.widget.chart.Title": [],
+  "MyRetirement.API": [],
   "MyRetirement.Application": [],
+  "MyRetirement.ChartThemes": [],
+  "MyRetirement.VARS": [],
+  "MyRetirement.chart.MonthlyIncome": [],
   "MyRetirement.controller.Assets": [],
   "MyRetirement.controller.Comparison": [],
   "MyRetirement.controller.Development": [],
@@ -860,12 +921,24 @@ Ext.ClassManager.addNameAlternateMappings({
   "MyRetirement.controller.Main": [],
   "MyRetirement.controller.Setup": [],
   "MyRetirement.controller.Viewport": [],
+  "MyRetirement.controller.WhatIf": [],
   "MyRetirement.controller.WhatIfParticipant": [],
   "MyRetirement.controller.Withdrawal": [],
   "MyRetirement.controller.relius.AboutYou": [],
   "MyRetirement.controller.relius.DisclaimerTab": [],
+  "MyRetirement.direct.RemotingProvider": [],
+  "MyRetirement.field.Enumeration": [],
+  "MyRetirement.field.FieldDatePicker": [],
+  "MyRetirement.field.InputIe": [],
+  "MyRetirement.field.IntegerIe": [],
+  "MyRetirement.field.PercentSlider": [],
+  "MyRetirement.field.RelativeDate": [],
+  "MyRetirement.field.RelativeDateForIe": [],
+  "MyRetirement.field.SaveMoreSlider": [],
+  "MyRetirement.help.HelpMap": [],
   "MyRetirement.model.Enumeration": [],
   "MyRetirement.model.asset.Growth": [],
+  "MyRetirement.model.asset.Investment": [],
   "MyRetirement.model.asset.Retirement": [],
   "MyRetirement.model.asset.RetirementComposition": [],
   "MyRetirement.model.comparison.Budget": [],
@@ -882,6 +955,18 @@ Ext.ClassManager.addNameAlternateMappings({
   "MyRetirement.model.whatif.SavingMore": [],
   "MyRetirement.model.withdrawal.AssetAllocation": [],
   "MyRetirement.model.withdrawal.RateData": [],
+  "MyRetirement.proxy.Direct": [],
+  "MyRetirement.store.AbstractSeeded": [],
+  "MyRetirement.store.Enumeration": [],
+  "MyRetirement.store.asset.Growth": [],
+  "MyRetirement.store.asset.Investment": [],
+  "MyRetirement.store.asset.Retirement": [],
+  "MyRetirement.store.income.Annuities": [],
+  "MyRetirement.store.income.Monthly": [],
+  "MyRetirement.store.income.Retirement": [],
+  "MyRetirement.store.setup.Portfolio": [],
+  "MyRetirement.validation.Enumeration": [],
+  "MyRetirement.validation.Relius": [],
   "MyRetirement.view.AppPanel": [],
   "MyRetirement.view.ChartPanel": [],
   "MyRetirement.view.DataHeader": [],
@@ -924,9 +1009,13 @@ Ext.ClassManager.addNameAlternateMappings({
   "MyRetirement.view.setup.MyInformationTable": [],
   "MyRetirement.view.setup.Panel": [],
   "MyRetirement.view.setup.RetirementYearsChart": [],
+  "MyRetirement.view.whatIf.Chart": [],
   "MyRetirement.view.whatIf.ChartParticipant": [],
+  "MyRetirement.view.whatIf.Footer": [],
   "MyRetirement.view.whatIf.FooterParticipant": [],
+  "MyRetirement.view.whatIf.Panel": [],
   "MyRetirement.view.whatIf.PanelParticipant": [],
+  "MyRetirement.view.whatIf.Table": [],
   "MyRetirement.view.whatIf.TableParticipant": [],
   "MyRetirement.view.withdrawal.ChartPanel": [],
   "MyRetirement.view.withdrawal.Panel": [],
@@ -1044,6 +1133,7 @@ Ext.ClassManager.addNameAliasMappings({
   ],
   "Ext.chart.series.Series": [],
   "Ext.chart.theme.Base": [],
+  "Ext.chart.theme.MyRetirement": [],
   "Ext.chart.theme.Theme": [],
   "Ext.container.AbstractContainer": [],
   "Ext.container.ButtonGroup": [
@@ -1851,6 +1941,9 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.ux.ajax.XmlSimlet": [
     "simlet.xml"
   ],
+  "Ext.ux.chart.axis.Snappy": [
+    "axis.snappy"
+  ],
   "Ext.ux.data.PagingMemoryProxy": [
     "proxy.pagingmemory"
   ],
@@ -1929,7 +2022,123 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.window.Window": [
     "widget.window"
   ],
+  "Jarvus.chart.axis.PriorityNumeric": [
+    "axis.prioritynumeric"
+  ],
+  "Jarvus.container.Raw": [
+    "widget.rawcontainer"
+  ],
+  "Jarvus.container.table.DetailRow": [
+    "widget.detailrow"
+  ],
+  "Jarvus.container.table.Expando": [
+    "widget.tableexpando"
+  ],
+  "Jarvus.container.table.FieldTable": [
+    "widget.fieldtable"
+  ],
+  "Jarvus.container.table.Header": [
+    "widget.tableheader"
+  ],
+  "Jarvus.container.table.ListFieldTable": [
+    "widget.listfieldtable"
+  ],
+  "Jarvus.container.table.Row": [
+    "widget.tablerow"
+  ],
+  "Jarvus.container.table.Segment": [
+    "widget.tablesegment"
+  ],
+  "Jarvus.data.writer.MappedJson": [
+    "writer.mappedjson"
+  ],
+  "Jarvus.field.Age": [
+    "widget.agefield"
+  ],
+  "Jarvus.field.BigMoney": [
+    "widget.bigmoneyfield"
+  ],
+  "Jarvus.field.BigMoneyTemplate": [
+    "widget.bigmoneytemplatefield"
+  ],
+  "Jarvus.field.Boolean": [
+    "widget.booleanfield"
+  ],
+  "Jarvus.field.Field": [
+    "widget.rawfield"
+  ],
+  "Jarvus.field.Float": [
+    "widget.floatfield"
+  ],
+  "Jarvus.field.Input": [
+    "widget.inputfield"
+  ],
+  "Jarvus.field.Integer": [
+    "widget.integerfield"
+  ],
+  "Jarvus.field.Money": [
+    "widget.moneyfield"
+  ],
+  "Jarvus.field.Percent": [
+    "widget.percentfield"
+  ],
+  "Jarvus.field.PercentTemplate": [
+    "widget.percenttemplatefield"
+  ],
+  "Jarvus.field.Select": [
+    "widget.selectfield"
+  ],
+  "Jarvus.field.Template": [
+    "widget.templatefield"
+  ],
+  "Jarvus.layout.container.AutoTarget": [
+    "layout.autotarget"
+  ],
+  "Jarvus.layout.container.Raw": [
+    "layout.raw"
+  ],
+  "Jarvus.mixin.DataApplicator": [],
+  "Jarvus.mixin.Fieldable": [],
+  "Jarvus.mixin.Formable": [],
+  "Jarvus.mixin.LinkEvents": [],
+  "Jarvus.patch.ConditionalValidation": [],
+  "Jarvus.patch.HistoryPaths": [],
+  "Jarvus.patch.HistoryTrail": [],
+  "Jarvus.patch.SoftLocalStorage": [],
+  "Jarvus.patch.StoreValidation": [],
+  "Jarvus.patch.TriggerEvent": [],
+  "Jarvus.table.DeleteCell": [
+    "widget.tabledeletecell"
+  ],
+  "Jarvus.table.ExpandCell": [
+    "widget.tableexpandcell"
+  ],
+  "Jarvus.table.FillerCell": [
+    "widget.tablefillercell"
+  ],
+  "Jarvus.table.IconCell": [
+    "widget.tableiconcell"
+  ],
+  "Jarvus.validation.Number": [],
+  "Jarvus.widget.HorizontalRule": [
+    "widget.hrule"
+  ],
+  "Jarvus.widget.chart.Container": [
+    "widget.chartcontainer"
+  ],
+  "Jarvus.widget.chart.Legend": [
+    "widget.chartlegend"
+  ],
+  "Jarvus.widget.chart.Title": [
+    "widget.charttitle"
+  ],
+  "MyRetirement.API": [],
   "MyRetirement.Application": [],
+  "MyRetirement.ChartThemes": [],
+  "MyRetirement.VARS": [],
+  "MyRetirement.chart.MonthlyIncome": [
+    "widget.monthlyincomechart"
+  ],
   "MyRetirement.controller.Assets": [],
   "MyRetirement.controller.Comparison": [],
   "MyRetirement.controller.Development": [],
@@ -1938,12 +2147,42 @@ Ext.ClassManager.addNameAliasMappings({
   "MyRetirement.controller.Main": [],
   "MyRetirement.controller.Setup": [],
   "MyRetirement.controller.Viewport": [],
+  "MyRetirement.controller.WhatIf": [],
   "MyRetirement.controller.WhatIfParticipant": [],
   "MyRetirement.controller.Withdrawal": [],
   "MyRetirement.controller.relius.AboutYou": [],
   "MyRetirement.controller.relius.DisclaimerTab": [],
+  "MyRetirement.direct.RemotingProvider": [
+    "direct.apiprovider"
+  ],
+  "MyRetirement.field.Enumeration": [
+    "widget.enumerationfield"
+  ],
+  "MyRetirement.field.FieldDatePicker": [
+    "widget.fielddatepicker"
+  ],
+  "MyRetirement.field.InputIe": [
+    "widget.inputfieldie"
+  ],
+  "MyRetirement.field.IntegerIe": [
+    "widget.integerfieldie"
+  ],
+  "MyRetirement.field.PercentSlider": [
+    "widget.percentslider"
+  ],
+  "MyRetirement.field.RelativeDate": [
+    "widget.relativedatefield"
+  ],
+  "MyRetirement.field.RelativeDateForIe": [
+    "widget.relativedatefieldie"
+  ],
+  "MyRetirement.field.SaveMoreSlider": [
+    "widget.savemoreslider"
+  ],
+  "MyRetirement.help.HelpMap": [],
   "MyRetirement.model.Enumeration": [],
   "MyRetirement.model.asset.Growth": [],
+  "MyRetirement.model.asset.Investment": [],
   "MyRetirement.model.asset.Retirement": [],
   "MyRetirement.model.asset.RetirementComposition": [],
   "MyRetirement.model.comparison.Budget": [],
@@ -1960,6 +2199,20 @@ Ext.ClassManager.addNameAliasMappings({
   "MyRetirement.model.whatif.SavingMore": [],
   "MyRetirement.model.withdrawal.AssetAllocation": [],
   "MyRetirement.model.withdrawal.RateData": [],
+  "MyRetirement.proxy.Direct": [
+    "proxy.apidirect"
+  ],
+  "MyRetirement.store.AbstractSeeded": [],
+  "MyRetirement.store.Enumeration": [],
+  "MyRetirement.store.asset.Growth": [],
+  "MyRetirement.store.asset.Investment": [],
+  "MyRetirement.store.asset.Retirement": [],
+  "MyRetirement.store.income.Annuities": [],
+  "MyRetirement.store.income.Monthly": [],
+  "MyRetirement.store.income.Retirement": [],
+  "MyRetirement.store.setup.Portfolio": [],
+  "MyRetirement.validation.Enumeration": [],
+  "MyRetirement.validation.Relius": [],
   "MyRetirement.view.AppPanel": [],
   "MyRetirement.view.ChartPanel": [],
   "MyRetirement.view.DataHeader": [],
@@ -1970,7 +2223,9 @@ Ext.ClassManager.addNameAliasMappings({
     "widget.app-main"
   ],
   "MyRetirement.view.ModuleTools": [],
-  "MyRetirement.view.Setup": [],
+  "MyRetirement.view.Setup": [
+    "widget.setup-panel"
+  ],
   "MyRetirement.view.Viewport": [],
   "MyRetirement.view.assets.ChartPanel": [],
   "MyRetirement.view.assets.GrowthChart": [],
@@ -2004,9 +2259,13 @@ Ext.ClassManager.addNameAliasMappings({
   "MyRetirement.view.setup.MyInformationTable": [],
   "MyRetirement.view.setup.Panel": [],
   "MyRetirement.view.setup.RetirementYearsChart": [],
+  "MyRetirement.view.whatIf.Chart": [],
   "MyRetirement.view.whatIf.ChartParticipant": [],
+  "MyRetirement.view.whatIf.Footer": [],
   "MyRetirement.view.whatIf.FooterParticipant": [],
+  "MyRetirement.view.whatIf.Panel": [],
   "MyRetirement.view.whatIf.PanelParticipant": [],
+  "MyRetirement.view.whatIf.Table": [],
   "MyRetirement.view.whatIf.TableParticipant": [],
   "MyRetirement.view.withdrawal.ChartPanel": [],
   "MyRetirement.view.withdrawal.Panel": [],

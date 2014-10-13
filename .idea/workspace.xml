@@ -1,364 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87b76d93-0a05-4516-8b66-707ab7b1fa4b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/compass_library.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/API.js" afterPath="$PROJECT_DIR$/app/API.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/relius/AboutYou.js" afterPath="$PROJECT_DIR$/app/controller/relius/AboutYou.js" />
+    <list default="true" id="bc37f170-ebc9-4c7f-b55d-241f492ef527" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/RemoteApi.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/relius/AboutYou.js" afterPath="$PROJECT_DIR$/app/model/relius/AboutYou.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/relius/AboutYouTab.js" afterPath="$PROJECT_DIR$/app/view/relius/AboutYouTab.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/whatif/AdditionalInvestment.js" afterPath="$PROJECT_DIR$/app/model/whatif/AdditionalInvestment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/field/Age.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/field/Age.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/field/Age.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/field/Age.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/field/Age.js" afterPath="$PROJECT_DIR$/resources/Jarvus/field/Age.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/income/Annuity.js" afterPath="$PROJECT_DIR$/app/model/income/Annuity.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/AppPanel.js" afterPath="$PROJECT_DIR$/app/view/AppPanel.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/setup/AssetAllocation.js" afterPath="$PROJECT_DIR$/app/model/setup/AssetAllocation.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/withdrawal/AssetAllocation.js" afterPath="$PROJECT_DIR$/app/model/withdrawal/AssetAllocation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/Assets.js" afterPath="$PROJECT_DIR$/app/controller/Assets.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/setup/AssumptionTable.js" afterPath="$PROJECT_DIR$/app/view/setup/AssumptionTable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/layout/container/AutoTarget.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/layout/container/AutoTarget.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/layout/container/AutoTarget.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/layout/container/AutoTarget.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/layout/container/AutoTarget.js" afterPath="$PROJECT_DIR$/resources/Jarvus/layout/container/AutoTarget.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/field/BigMoney.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/field/BigMoney.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/field/BigMoney.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/field/BigMoney.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/field/BigMoney.js" afterPath="$PROJECT_DIR$/resources/Jarvus/field/BigMoney.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/field/BigMoneyTemplate.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/field/BigMoneyTemplate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/field/BigMoneyTemplate.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/field/BigMoneyTemplate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/field/BigMoneyTemplate.js" afterPath="$PROJECT_DIR$/resources/Jarvus/field/BigMoneyTemplate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/field/Boolean.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/field/Boolean.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/rawfield/Boolean.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/rawfield/Boolean.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/field/Boolean.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/field/Boolean.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/rawfield/Boolean.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/rawfield/Boolean.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/field/Boolean.js" afterPath="$PROJECT_DIR$/resources/Jarvus/field/Boolean.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/rawfield/Boolean.js" afterPath="$PROJECT_DIR$/resources/Jarvus/rawfield/Boolean.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/comparison/Budget.js" afterPath="$PROJECT_DIR$/app/model/comparison/Budget.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/comparison/Chart.js" afterPath="$PROJECT_DIR$/app/view/comparison/Chart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/ChartPanel.js" afterPath="$PROJECT_DIR$/app/view/ChartPanel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/assets/ChartPanel.js" afterPath="$PROJECT_DIR$/app/view/assets/ChartPanel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/income/ChartPanel.js" afterPath="$PROJECT_DIR$/app/view/income/ChartPanel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/setup/ChartPanel.js" afterPath="$PROJECT_DIR$/app/view/setup/ChartPanel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/withdrawal/ChartPanel.js" afterPath="$PROJECT_DIR$/app/view/withdrawal/ChartPanel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/whatIf/ChartParticipant.js" afterPath="$PROJECT_DIR$/app/view/whatIf/ChartParticipant.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ChartThemes.js" afterPath="$PROJECT_DIR$/app/ChartThemes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/Comparison.js" afterPath="$PROJECT_DIR$/app/controller/Comparison.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/patch/ConditionalValidation.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/patch/ConditionalValidation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/patch/ConditionalValidation.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/patch/ConditionalValidation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/patch/ConditionalValidation.js" afterPath="$PROJECT_DIR$/resources/Jarvus/patch/ConditionalValidation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/widget/chart/Container.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/widget/chart/Container.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/widget/chart/Container.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/widget/chart/Container.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/widget/chart/Container.js" afterPath="$PROJECT_DIR$/resources/Jarvus/widget/chart/Container.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/comparison/Data.js" afterPath="$PROJECT_DIR$/app/model/comparison/Data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/mixin/DataApplicator.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/mixin/DataApplicator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/mixin/DataApplicator.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/mixin/DataApplicator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/mixin/DataApplicator.js" afterPath="$PROJECT_DIR$/resources/Jarvus/mixin/DataApplicator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/DataHeader.js" afterPath="$PROJECT_DIR$/app/view/DataHeader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/DataPanel.js" afterPath="$PROJECT_DIR$/app/view/DataPanel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/table/DeleteCell.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/table/DeleteCell.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/table/DeleteCell.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/table/DeleteCell.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/table/DeleteCell.js" afterPath="$PROJECT_DIR$/resources/Jarvus/table/DeleteCell.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/container/table/DetailRow.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/container/table/DetailRow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/container/table/DetailRow.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/container/table/DetailRow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/container/table/DetailRow.js" afterPath="$PROJECT_DIR$/resources/Jarvus/container/table/DetailRow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/Development.js" afterPath="$PROJECT_DIR$/app/controller/Development.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/proxy/Direct.js" afterPath="$PROJECT_DIR$/app/proxy/Direct.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/relius/DisclaimerTab.js" afterPath="$PROJECT_DIR$/app/controller/relius/DisclaimerTab.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/relius/DisclaimerTab.js" afterPath="$PROJECT_DIR$/app/view/relius/DisclaimerTab.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/field/Enumeration.js" afterPath="$PROJECT_DIR$/app/field/Enumeration.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/validation/Enumeration.js" afterPath="$PROJECT_DIR$/app/validation/Enumeration.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/table/ExpandCell.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/table/ExpandCell.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/table/ExpandCell.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/table/ExpandCell.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/table/ExpandCell.js" afterPath="$PROJECT_DIR$/resources/Jarvus/table/ExpandCell.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/container/table/Expando.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/container/table/Expando.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/container/table/Expando.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/container/table/Expando.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/container/table/Expando.js" afterPath="$PROJECT_DIR$/resources/Jarvus/container/table/Expando.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/field/Field.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/field/Field.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/field/Field.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/field/Field.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/field/Field.js" afterPath="$PROJECT_DIR$/resources/Jarvus/field/Field.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/field/FieldDatePicker.js" afterPath="$PROJECT_DIR$/app/field/FieldDatePicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/container/table/FieldTable.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/container/table/FieldTable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/container/table/FieldTable.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/container/table/FieldTable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/container/table/FieldTable.js" afterPath="$PROJECT_DIR$/resources/Jarvus/container/table/FieldTable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/mixin/Fieldable.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/mixin/Fieldable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/mixin/Fieldable.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/mixin/Fieldable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/mixin/Fieldable.js" afterPath="$PROJECT_DIR$/resources/Jarvus/mixin/Fieldable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/table/FillerCell.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/table/FillerCell.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/table/FillerCell.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/table/FillerCell.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/table/FillerCell.js" afterPath="$PROJECT_DIR$/resources/Jarvus/table/FillerCell.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/field/Float.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/field/Float.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/rawfield/Float.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/rawfield/Float.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/field/Float.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/field/Float.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/rawfield/Float.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/rawfield/Float.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/field/Float.js" afterPath="$PROJECT_DIR$/resources/Jarvus/field/Float.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/rawfield/Float.js" afterPath="$PROJECT_DIR$/resources/Jarvus/rawfield/Float.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/whatIf/FooterParticipant.js" afterPath="$PROJECT_DIR$/app/view/whatIf/FooterParticipant.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/mixin/Formable.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/mixin/Formable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/mixin/Formable.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/mixin/Formable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/mixin/Formable.js" afterPath="$PROJECT_DIR$/resources/Jarvus/mixin/Formable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/assets/GrowthChart.js" afterPath="$PROJECT_DIR$/app/view/assets/GrowthChart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/container/table/Header.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/container/table/Header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/container/table/Header.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/container/table/Header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/container/table/Header.js" afterPath="$PROJECT_DIR$/resources/Jarvus/container/table/Header.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/Help.js" afterPath="$PROJECT_DIR$/app/controller/Help.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/help/HelpMap.js" afterPath="$PROJECT_DIR$/app/help/HelpMap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/HelpPanel.js" afterPath="$PROJECT_DIR$/app/view/HelpPanel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/patch/HistoryPaths.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/patch/HistoryPaths.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/patch/HistoryPaths.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/patch/HistoryPaths.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/patch/HistoryPaths.js" afterPath="$PROJECT_DIR$/resources/Jarvus/patch/HistoryPaths.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/patch/HistoryTrail.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/patch/HistoryTrail.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/patch/HistoryTrail.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/patch/HistoryTrail.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/patch/HistoryTrail.js" afterPath="$PROJECT_DIR$/resources/Jarvus/patch/HistoryTrail.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/widget/HorizontalRule.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/widget/HorizontalRule.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/widget/HorizontalRule.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/widget/HorizontalRule.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/widget/HorizontalRule.js" afterPath="$PROJECT_DIR$/resources/Jarvus/widget/HorizontalRule.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/table/IconCell.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/table/IconCell.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/table/IconCell.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/table/IconCell.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/table/IconCell.js" afterPath="$PROJECT_DIR$/resources/Jarvus/table/IconCell.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/Income.js" afterPath="$PROJECT_DIR$/app/controller/Income.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/field/Input.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/field/Input.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/rawfield/Input.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/rawfield/Input.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/field/Input.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/field/Input.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/rawfield/Input.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/rawfield/Input.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/field/Input.js" afterPath="$PROJECT_DIR$/resources/Jarvus/field/Input.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/rawfield/Input.js" afterPath="$PROJECT_DIR$/resources/Jarvus/rawfield/Input.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/field/InputIe.js" afterPath="$PROJECT_DIR$/app/field/InputIe.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/field/Integer.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/field/Integer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/rawfield/Integer.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/rawfield/Integer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/field/Integer.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/field/Integer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/rawfield/Integer.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/rawfield/Integer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/field/Integer.js" afterPath="$PROJECT_DIR$/resources/Jarvus/field/Integer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/rawfield/Integer.js" afterPath="$PROJECT_DIR$/resources/Jarvus/rawfield/Integer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/field/IntegerIe.js" afterPath="$PROJECT_DIR$/app/field/IntegerIe.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/assets/InvestmentAccountSegment.js" afterPath="$PROJECT_DIR$/app/view/assets/InvestmentAccountSegment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/assets/InvestmentAccountTable.js" afterPath="$PROJECT_DIR$/app/view/assets/InvestmentAccountTable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/assets/InvestmentAccounts.js" afterPath="$PROJECT_DIR$/app/view/assets/InvestmentAccounts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/widget/chart/Legend.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/widget/chart/Legend.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/widget/chart/Legend.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/widget/chart/Legend.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/widget/chart/Legend.js" afterPath="$PROJECT_DIR$/resources/Jarvus/widget/chart/Legend.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/LegendFooter.js" afterPath="$PROJECT_DIR$/app/view/LegendFooter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/mixin/LinkEvents.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/mixin/LinkEvents.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/mixin/LinkEvents.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/mixin/LinkEvents.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/mixin/LinkEvents.js" afterPath="$PROJECT_DIR$/resources/Jarvus/mixin/LinkEvents.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/container/table/ListFieldTable.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/container/table/ListFieldTable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/container/table/ListFieldTable.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/container/table/ListFieldTable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/container/table/ListFieldTable.js" afterPath="$PROJECT_DIR$/resources/Jarvus/container/table/ListFieldTable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/Main.js" afterPath="$PROJECT_DIR$/app/view/Main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/data/writer/MappedJson.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/data/writer/MappedJson.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/data/writer/MappedJson.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/data/writer/MappedJson.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/data/writer/MappedJson.js" afterPath="$PROJECT_DIR$/resources/Jarvus/data/writer/MappedJson.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/ModuleTools.js" afterPath="$PROJECT_DIR$/app/view/ModuleTools.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/relius/ModuleToolsRelius.js" afterPath="$PROJECT_DIR$/app/view/relius/ModuleToolsRelius.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/field/Money.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/field/Money.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/rawfield/Money.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/rawfield/Money.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/field/Money.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/field/Money.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/rawfield/Money.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/rawfield/Money.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/field/Money.js" afterPath="$PROJECT_DIR$/resources/Jarvus/field/Money.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/rawfield/Money.js" afterPath="$PROJECT_DIR$/resources/Jarvus/rawfield/Money.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/income/MonthlyChart.js" afterPath="$PROJECT_DIR$/app/view/income/MonthlyChart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/chart/MonthlyIncome.js" afterPath="$PROJECT_DIR$/app/chart/MonthlyIncome.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/comparison/MyBudgetRow.js" afterPath="$PROJECT_DIR$/app/view/comparison/MyBudgetRow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/comparison/MyBudgetTable.js" afterPath="$PROJECT_DIR$/app/view/comparison/MyBudgetTable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/comparison/MyBudgetTotalsRow.js" afterPath="$PROJECT_DIR$/app/view/comparison/MyBudgetTotalsRow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/setup/MyInformationTable.js" afterPath="$PROJECT_DIR$/app/view/setup/MyInformationTable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/Enumeration.js" afterPath="$PROJECT_DIR$/app/model/Enumeration.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/asset/Growth.js" afterPath="$PROJECT_DIR$/app/model/asset/Growth.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/asset/Investment.js" afterPath="$PROJECT_DIR$/app/model/asset/Investment.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/MyRetirement-all.css" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/MyRetirement-all.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/income/NoteAnnuitySegment.js" afterPath="$PROJECT_DIR$/app/view/income/NoteAnnuitySegment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/income/NoteAnnuityTable.js" afterPath="$PROJECT_DIR$/app/view/income/NoteAnnuityTable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/validation/Number.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/validation/Number.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/validation/Number.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/validation/Number.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/validation/Number.js" afterPath="$PROJECT_DIR$/resources/Jarvus/validation/Number.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/income/OtherIncomeSegment.js" afterPath="$PROJECT_DIR$/app/view/income/OtherIncomeSegment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/income/OtherIncomeTable.js" afterPath="$PROJECT_DIR$/app/view/income/OtherIncomeTable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/assets/Panel.js" afterPath="$PROJECT_DIR$/app/view/assets/Panel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/comparison/Panel.js" afterPath="$PROJECT_DIR$/app/view/comparison/Panel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/income/Panel.js" afterPath="$PROJECT_DIR$/app/view/income/Panel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/setup/Panel.js" afterPath="$PROJECT_DIR$/app/view/setup/Panel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/withdrawal/Panel.js" afterPath="$PROJECT_DIR$/app/view/withdrawal/Panel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/whatIf/PanelParticipant.js" afterPath="$PROJECT_DIR$/app/view/whatIf/PanelParticipant.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/field/Percent.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/field/Percent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/rawfield/Percent.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/rawfield/Percent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/field/Percent.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/field/Percent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/rawfield/Percent.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/rawfield/Percent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/field/Percent.js" afterPath="$PROJECT_DIR$/resources/Jarvus/field/Percent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/rawfield/Percent.js" afterPath="$PROJECT_DIR$/resources/Jarvus/rawfield/Percent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/field/PercentSlider.js" afterPath="$PROJECT_DIR$/app/field/PercentSlider.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/field/PercentTemplate.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/field/PercentTemplate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/field/PercentTemplate.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/field/PercentTemplate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/field/PercentTemplate.js" afterPath="$PROJECT_DIR$/resources/Jarvus/field/PercentTemplate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/relius/PersonalInfoForm.js" afterPath="$PROJECT_DIR$/app/view/relius/PersonalInfoForm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/chart/axis/PriorityNumeric.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/chart/axis/PriorityNumeric.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/chart/axis/PriorityNumeric.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/chart/axis/PriorityNumeric.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/chart/axis/PriorityNumeric.js" afterPath="$PROJECT_DIR$/resources/Jarvus/chart/axis/PriorityNumeric.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/withdrawal/RateData.js" afterPath="$PROJECT_DIR$/app/model/withdrawal/RateData.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/withdrawal/RateTable.js" afterPath="$PROJECT_DIR$/app/view/withdrawal/RateTable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/container/Raw.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/container/Raw.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/layout/container/Raw.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/layout/container/Raw.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/container/Raw.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/container/Raw.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/layout/container/Raw.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/layout/container/Raw.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/container/Raw.js" afterPath="$PROJECT_DIR$/resources/Jarvus/container/Raw.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/layout/container/Raw.js" afterPath="$PROJECT_DIR$/resources/Jarvus/layout/container/Raw.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/field/RelativeDate.js" afterPath="$PROJECT_DIR$/app/field/RelativeDate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/field/RelativeDateForIe.js" afterPath="$PROJECT_DIR$/app/field/RelativeDateForIe.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/validation/Relius.js" afterPath="$PROJECT_DIR$/app/validation/Relius.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/direct/RemotingProvider.js" afterPath="$PROJECT_DIR$/app/direct/RemotingProvider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/asset/Retirement.js" afterPath="$PROJECT_DIR$/app/model/asset/Retirement.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/income/Retirement.js" afterPath="$PROJECT_DIR$/app/model/income/Retirement.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/assets/RetirementAccountSegment.js" afterPath="$PROJECT_DIR$/app/view/assets/RetirementAccountSegment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/assets/RetirementAccountTable.js" afterPath="$PROJECT_DIR$/app/view/assets/RetirementAccountTable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/assets/RetirementAccounts.js" afterPath="$PROJECT_DIR$/app/view/assets/RetirementAccounts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/income/RetirementAverage.js" afterPath="$PROJECT_DIR$/app/model/income/RetirementAverage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/setup/RetirementYearsChart.js" afterPath="$PROJECT_DIR$/app/view/setup/RetirementYearsChart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/container/table/Row.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/container/table/Row.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/container/table/Row.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/container/table/Row.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/container/table/Row.js" afterPath="$PROJECT_DIR$/resources/Jarvus/container/table/Row.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/field/SaveMoreSlider.js" afterPath="$PROJECT_DIR$/app/field/SaveMoreSlider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/asset/RetirementComposition.js" afterPath="$PROJECT_DIR$/app/model/asset/RetirementComposition.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/whatif/SavingMore.js" afterPath="$PROJECT_DIR$/app/model/whatif/SavingMore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/container/table/Segment.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/container/table/Segment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/container/table/Segment.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/container/table/Segment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/container/table/Segment.js" afterPath="$PROJECT_DIR$/resources/Jarvus/container/table/Segment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/field/Select.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/field/Select.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/rawfield/Select.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/rawfield/Select.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/field/Select.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/field/Select.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/rawfield/Select.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/rawfield/Select.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/field/Select.js" afterPath="$PROJECT_DIR$/resources/Jarvus/field/Select.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/rawfield/Select.js" afterPath="$PROJECT_DIR$/resources/Jarvus/rawfield/Select.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/Setup.js" afterPath="$PROJECT_DIR$/app/view/Setup.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/setup/SetupInfo.js" afterPath="$PROJECT_DIR$/app/model/setup/SetupInfo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/ux/chart/axis/Snappy.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/ux/chart/axis/Snappy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/ux/chart/axis/Snappy.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/ux/chart/axis/Snappy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/ux/chart/axis/Snappy.js" afterPath="$PROJECT_DIR$/resources/ux/chart/axis/Snappy.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/income/SocialSecurity.js" afterPath="$PROJECT_DIR$/app/model/income/SocialSecurity.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/income/SocialSecurityTable.js" afterPath="$PROJECT_DIR$/app/view/income/SocialSecurityTable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/patch/SoftLocalStorage.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/patch/SoftLocalStorage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/patch/SoftLocalStorage.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/patch/SoftLocalStorage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/patch/SoftLocalStorage.js" afterPath="$PROJECT_DIR$/resources/Jarvus/patch/SoftLocalStorage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/patch/StoreValidation.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/patch/StoreValidation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/patch/StoreValidation.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/patch/StoreValidation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/patch/StoreValidation.js" afterPath="$PROJECT_DIR$/resources/Jarvus/patch/StoreValidation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/ux/css/TabScrollerMenu.css" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/ux/css/TabScrollerMenu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/ux/css/TabScrollerMenu.css" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/ux/css/TabScrollerMenu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/ux/css/TabScrollerMenu.css" afterPath="$PROJECT_DIR$/resources/ux/css/TabScrollerMenu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/whatIf/TableParticipant.js" afterPath="$PROJECT_DIR$/app/view/whatIf/TableParticipant.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/model/comparison/TakeHomePay.js" afterPath="$PROJECT_DIR$/app/model/comparison/TakeHomePay.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/comparison/TakeHomeTable.js" afterPath="$PROJECT_DIR$/app/view/comparison/TakeHomeTable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/field/Template.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/field/Template.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/rawfield/Template.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/rawfield/Template.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/field/Template.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/field/Template.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/rawfield/Template.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/rawfield/Template.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/field/Template.js" afterPath="$PROJECT_DIR$/resources/Jarvus/field/Template.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/rawfield/Template.js" afterPath="$PROJECT_DIR$/resources/Jarvus/rawfield/Template.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/widget/chart/Title.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/widget/chart/Title.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/widget/chart/Title.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/widget/chart/Title.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/widget/chart/Title.js" afterPath="$PROJECT_DIR$/resources/Jarvus/widget/chart/Title.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/patch/TriggerEvent.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Jarvus/patch/TriggerEvent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/patch/TriggerEvent.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/Jarvus/patch/TriggerEvent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/Jarvus/patch/TriggerEvent.js" afterPath="$PROJECT_DIR$/resources/Jarvus/patch/TriggerEvent.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/VARS.js" afterPath="$PROJECT_DIR$/app/VARS.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/Viewport.js" afterPath="$PROJECT_DIR$/app/view/Viewport.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/WhatIfParticipant.js" afterPath="$PROJECT_DIR$/app/controller/WhatIfParticipant.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/Withdrawal.js" afterPath="$PROJECT_DIR$/app/controller/Withdrawal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/sass/default/variables/_sg-panel.scss" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/sass/default/variables/_sg-panel.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/sass/default/variables/_sg-panel.scss" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/sass/default/variables/_sg-panel.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/default/variables/_sg-panel.scss" afterPath="$PROJECT_DIR$/resources/sass/default/variables/_sg-panel.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/sass/default/variables/_sg-tabs.scss" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/sass/default/variables/_sg-tabs.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/sass/default/variables/_sg-tabs.scss" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/sass/default/variables/_sg-tabs.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/default/variables/_sg-tabs.scss" afterPath="$PROJECT_DIR$/resources/sass/default/variables/_sg-tabs.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/sass/default/variables/_sg-window.scss" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/sass/default/variables/_sg-window.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/sass/default/variables/_sg-window.scss" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/sass/default/variables/_sg-window.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/default/variables/_sg-window.scss" afterPath="$PROJECT_DIR$/resources/sass/default/variables/_sg-window.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.js" afterPath="$PROJECT_DIR$/app/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/app.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap.css" afterPath="$PROJECT_DIR$/bootstrap.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap.js" afterPath="$PROJECT_DIR$/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/example/bootstrap.js" afterPath="$PROJECT_DIR$/sass/example/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class-gen.log" afterPath="$PROJECT_DIR$/class-gen.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sencha/app/codegen.json" afterPath="$PROJECT_DIR$/.sencha/app/codegen.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/sass/compile.sh" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/sass/compile.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/sass/compile.sh" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/sass/compile.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/compile.sh" afterPath="$PROJECT_DIR$/resources/sass/compile.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/config.rb" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/config.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/config.rb" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/config.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/config.rb" afterPath="$PROJECT_DIR$/resources/config.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/theme/custom.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/theme/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/theme/custom.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/theme/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/theme/custom.js" afterPath="$PROJECT_DIR$/resources/theme/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/sass/default/ie.scss" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/sass/default/ie.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/sass/default/ie.scss" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/sass/default/ie.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/default/ie.scss" afterPath="$PROJECT_DIR$/resources/sass/default/ie.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/sass/default/ie7.scss" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/sass/default/ie7.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/sass/default/ie7.scss" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/sass/default/ie7.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/default/ie7.scss" afterPath="$PROJECT_DIR$/resources/sass/default/ie7.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/sass/default/ie8-relius.scss" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/sass/default/ie8-relius.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/sass/default/ie8-relius.scss" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/sass/default/ie8-relius.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/default/ie8-relius.scss" afterPath="$PROJECT_DIR$/resources/sass/default/ie8-relius.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/sass/default/ie8.scss" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/sass/default/ie8.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/sass/default/ie8.scss" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/sass/default/ie8.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/default/ie8.scss" afterPath="$PROJECT_DIR$/resources/sass/default/ie8.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/sass/default/ie9-relius.scss" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/sass/default/ie9-relius.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/sass/default/ie9-relius.scss" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/sass/default/ie9-relius.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/default/ie9-relius.scss" afterPath="$PROJECT_DIR$/resources/sass/default/ie9-relius.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/sass/default/ie9.scss" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/sass/default/ie9.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/sass/default/ie9.scss" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/sass/default/ie9.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/default/ie9.scss" afterPath="$PROJECT_DIR$/resources/sass/default/ie9.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/index.html" afterPath="$PROJECT_DIR$/build/production/MyRetirement/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/theme/manifest.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/theme/manifest.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/theme/manifest.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/theme/manifest.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/theme/manifest.js" afterPath="$PROJECT_DIR$/resources/theme/manifest.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/modernizr/modernizr.custom-2.6.1.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/modernizr/modernizr.custom-2.6.1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/modernizr/modernizr.custom-2.6.1.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/modernizr/modernizr.custom-2.6.1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/modernizr/modernizr.custom-2.6.1.js" afterPath="$PROJECT_DIR$/resources/modernizr/modernizr.custom-2.6.1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mr-definitions.sh" afterPath="$PROJECT_DIR$/mr-definitions.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mret42.iml" afterPath="$PROJECT_DIR$/mret42.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/help/myRetirementHelp.js" afterPath="$PROJECT_DIR$/app/help/myRetirementHelp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/help/myRetirementHelp_CA.js" afterPath="$PROJECT_DIR$/app/help/myRetirementHelp_CA.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/help/myRetirementHelp_SWAB.js" afterPath="$PROJECT_DIR$/app/help/myRetirementHelp_SWAB.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/sass/default/myretirement-relius.scss" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/sass/default/myretirement-relius.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/sass/default/myretirement-relius.scss" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/sass/default/myretirement-relius.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/default/myretirement-relius.scss" afterPath="$PROJECT_DIR$/resources/sass/default/myretirement-relius.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/sass/default/myretirement.scss" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/sass/default/myretirement.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/sass/default/myretirement.scss" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/sass/default/myretirement.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/default/myretirement.scss" afterPath="$PROJECT_DIR$/resources/sass/default/myretirement.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/sass/default/myretirement_sas.scss" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/sass/default/myretirement_sas.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/sass/default/myretirement_sas.scss" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/sass/default/myretirement_sas.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sass/default/myretirement_sas.scss" afterPath="$PROJECT_DIR$/resources/sass/default/myretirement_sas.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/theme/render.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/theme/render.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/theme/render.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/theme/render.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/theme/render.js" afterPath="$PROJECT_DIR$/resources/theme/render.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sencha/app/sencha.cfg" afterPath="$PROJECT_DIR$/.sencha/app/sencha.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/packages/ext-locale/.sencha/package/sencha.cfg" afterPath="$PROJECT_DIR$/ext/packages/ext-locale/.sencha/package/sencha.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/packages/ext-theme-access/.sencha/package/sencha.cfg" afterPath="$PROJECT_DIR$/ext/packages/ext-theme-access/.sencha/package/sencha.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/packages/ext-theme-base/.sencha/package/sencha.cfg" afterPath="$PROJECT_DIR$/ext/packages/ext-theme-base/.sencha/package/sencha.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/packages/ext-theme-classic-sandbox/.sencha/package/sencha.cfg" afterPath="$PROJECT_DIR$/ext/packages/ext-theme-classic-sandbox/.sencha/package/sencha.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/packages/ext-theme-classic/.sencha/package/sencha.cfg" afterPath="$PROJECT_DIR$/ext/packages/ext-theme-classic/.sencha/package/sencha.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/packages/ext-theme-gray/.sencha/package/sencha.cfg" afterPath="$PROJECT_DIR$/ext/packages/ext-theme-gray/.sencha/package/sencha.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/packages/ext-theme-neptune/.sencha/package/sencha.cfg" afterPath="$PROJECT_DIR$/ext/packages/ext-theme-neptune/.sencha/package/sencha.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ext/packages/ext-theme-neutral/.sencha/package/sencha.cfg" afterPath="$PROJECT_DIR$/ext/packages/ext-theme-neutral/.sencha/package/sencha.cfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/theme/shortcuts.js" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/theme/shortcuts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/theme/shortcuts.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/theme/shortcuts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/theme/shortcuts.js" afterPath="$PROJECT_DIR$/resources/theme/shortcuts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/stats.txt" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/stats.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/stats.txt" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/stats.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/stats.txt" afterPath="$PROJECT_DIR$/resources/stats.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/development/MyRetirement/resources/theme/default/theme.html" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/theme/default/theme.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/theme/default/theme.html" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/theme/default/theme.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/theme/default/theme.html" afterPath="$PROJECT_DIR$/resources/theme/default/theme.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
-    <ignored path="MyRetirement 4.2 Port.iws" />
-    <ignored path=".idea/workspace.xml" />
     <ignored path="build/.sass-cache/" />
     <ignored path="build/temp/" />
     <ignored path="resources/sass/.sass-cache/" />
-    <ignored path="build.log" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -374,66 +48,68 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="MyRetirement 4.2 Port" />
+    <favorites_list name="my retirement 42" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Viewport.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/view/Viewport.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="171">
-              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../mret42_save/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="1634">
-              <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+            <state vertical-scroll-proportion="-7.464286" vertical-offset="494" max-vertical-offset="1634">
+              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.7748593" vertical-offset="717" max-vertical-offset="1539">
+              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="171">
+              <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/build/production/MyRetirement/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1539" max-vertical-offset="1653">
-              <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="38" max-vertical-offset="798">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootstrap.js">
+      <file leaf-file-name="sencha.cfg" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.sencha/app/sencha.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="380" max-vertical-offset="42199">
-              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="950">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.log" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.log">
+      <file leaf-file-name="API.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/API.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="323">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sencha.cfg" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.sencha/workspace/sencha.cfg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0199387" vertical-offset="0" max-vertical-offset="779">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3306">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -451,35 +127,25 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/resources/config.rb" />
-        <option value="$PROJECT_DIR$/mr-definitions.sh" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/../mret42_save/index.html" />
+        <option value="$PROJECT_DIR$/app/app.js" />
+        <option value="$PROJECT_DIR$/app.json" />
+        <option value="$PROJECT_DIR$/app/Application.js" />
+        <option value="$PROJECT_DIR$/app/view/Setup.js" />
+        <option value="$PROJECT_DIR$/app/view/Main.js" />
+        <option value="$PROJECT_DIR$/build/temp/production/MyRetirement/sencha-compiler/cmd-packages.js" />
+        <option value="$PROJECT_DIR$/.sencha/app/sencha.cfg" />
+        <option value="$PROJECT_DIR$/app/API.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/bootstrap.js" />
-        <option value="$PROJECT_DIR$/build.log" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="449" />
-    <option name="width" value="1471" />
-    <option name="height" value="1165" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Abstraction issues</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
+    <option name="x" value="510" />
+    <option name="y" value="2" />
+    <option name="width" value="1410" />
+    <option name="height" value="1037" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -507,17 +173,19 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyRetirement 4.2 Port" />
+              <option name="myItemId" value="my retirement 42" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyRetirement 4.2 Port" />
+              <option name="myItemId" value="my retirement 42" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -527,7 +195,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyRetirement 4.2 Port" />
+              <option name="myItemId" value="my retirement 42" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -535,17 +203,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".sencha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workspace" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyRetirement 4.2 Port" />
+              <option name="myItemId" value="my retirement 42" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -553,14 +217,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".sencha" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -571,20 +233,42 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.general" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Ignored.Files" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/sass/.sass-cache" />
+    <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="84" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="112" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="114" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1016" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="90" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="110" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="112" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1014" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings />
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jeff.furgal\src\mret42\app" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -677,6 +361,9 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AntRunConfigurationType" factoryName="Ant build" debug-port="25000" max-memory="256" logging-level="0">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -814,75 +501,86 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
-    <configuration>C:\Users\jeff.furgal\AppData\Roaming\Subversion</configuration>
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="87b76d93-0a05-4516-8b66-707ab7b1fa4b" name="Default" comment="" />
-      <created>1412359568097</created>
-      <updated>1412359568097</updated>
-      <workItem from="1412359572381" duration="7792000" />
-      <workItem from="1412791099268" duration="1627000" />
-      <workItem from="1412880937740" duration="718000" />
-      <workItem from="1412882230558" duration="1853000" />
-      <workItem from="1412887689519" duration="3339000" />
-      <workItem from="1412957384058" duration="2376000" />
-      <workItem from="1412977459832" duration="973000" />
-      <workItem from="1412980905125" duration="646000" />
-      <workItem from="1412985784960" duration="671000" />
+      <changelist id="bc37f170-ebc9-4c7f-b55d-241f492ef527" name="Default" comment="" />
+      <created>1412195822308</created>
+      <updated>1412195822308</updated>
+      <workItem from="1412195828213" duration="4027000" />
+      <workItem from="1412353596465" duration="1144000" />
+      <workItem from="1412962577003" duration="420000" />
+      <workItem from="1412964520106" duration="1150000" />
+      <workItem from="1412975213255" duration="518000" />
+      <workItem from="1412975758435" duration="970000" />
+      <workItem from="1412989325465" duration="9030000" />
+      <workItem from="1413217949652" duration="5401000" />
     </task>
-    <task id="LOCAL-00001" summary="Initial commit after project setup.">
-      <created>1412361736523</created>
-      <updated>1412361736523</updated>
+    <task id="LOCAL-00001" summary="Adding initial project from Sencha Cmd generate.">
+      <created>1412196835069</created>
+      <updated>1412196835069</updated>
     </task>
-    <task id="LOCAL-00002" summary="Commiting after project build.">
-      <created>1412363379783</created>
-      <updated>1412363379783</updated>
+    <task id="LOCAL-00002" summary="Adding initial optimized build of default app from Sencha Cmd app build.">
+      <created>1412197666508</created>
+      <updated>1412197666508</updated>
     </task>
-    <task id="LOCAL-00003" summary="Committing after adding basic MR MVC classes.">
-      <created>1412372981533</created>
-      <updated>1412372981533</updated>
+    <task id="LOCAL-00003" summary="Adding some initial old MyRetirement code.">
+      <created>1412199304000</created>
+      <updated>1412199304000</updated>
     </task>
-    <task id="LOCAL-00004" summary="Resync with backed-up MR classes.">
-      <created>1412889233932</created>
-      <updated>1412889233932</updated>
+    <task id="LOCAL-00004" summary="Adding more old MyRetirement code.">
+      <created>1412199907447</created>
+      <updated>1412199907447</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Some additional Controllers and views.">
+      <created>1413170260265</created>
+      <updated>1413170260265</updated>
+    </task>
+    <task id="LOCAL-00006" summary="All basic MR Controller and View skeletons added and generated.">
+      <created>1413171128531</created>
+      <updated>1413171128531</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Incorporated high level Jarvus and MR custom class references. Refreshed and built successfully.">
+      <created>1413220892071</created>
+      <updated>1413220892071</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19995000" />
+    <option name="totallyTimeSpent" value="22660000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="449" y="0" width="1471" height="1165" extended-state="4" />
+    <frame x="510" y="2" width="1410" height="1037" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32840237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287827" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287827" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992035" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938856" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Notes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23076923" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992035" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938856" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Notes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21298322" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951945" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -902,12 +600,15 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
-    <MESSAGE value="Initial commit after project setup." />
-    <MESSAGE value="Commiting after project build." />
-    <MESSAGE value="Committing after adding basic MR MVC classes." />
-    <MESSAGE value="Resync with backed-up MR classes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Resync with backed-up MR classes." />
+    <MESSAGE value="Adding initial project from Sencha Cmd generate." />
+    <MESSAGE value="Adding initial optimized build of default app from Sencha Cmd app build." />
+    <MESSAGE value="Adding some initial old MyRetirement code." />
+    <MESSAGE value="Adding more old MyRetirement code." />
+    <MESSAGE value="Valid build with a little more old MyRetirement code." />
+    <MESSAGE value="Some additional Controllers and views." />
+    <MESSAGE value="All basic MR Controller and View skeletons added and generated." />
+    <MESSAGE value="Incorporated high level Jarvus and MR custom class references. Refreshed and built successfully." />
+    <option name="LAST_COMMIT_MESSAGE" value="Incorporated high level Jarvus and MR custom class references. Refreshed and built successfully." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -917,390 +618,365 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.sencha/workspace/sencha.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="665" max-vertical-offset="779">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/Viewport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="171">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../mret42_save/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="1634">
-          <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1539" max-vertical-offset="1653">
-          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1634">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="380" max-vertical-offset="42199">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="42199">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.log">
+    <entry file="file://$PROJECT_DIR$/app/view/Main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="323">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.sencha/workspace/sencha.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="665" max-vertical-offset="779">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/Viewport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="399">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mret42_save/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="1634">
-          <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="589">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="437">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="760" max-vertical-offset="1653">
+          <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap.js">
+    <entry file="file://$PROJECT_DIR$/.sencha/app/sencha.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="39615">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="950">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.log">
+    <entry file="file://$PROJECT_DIR$/app/API.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="323">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.sencha/workspace/sencha.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="665" max-vertical-offset="779">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="437">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="38228" max-vertical-offset="42161">
-          <caret line="2012" column="0" selection-start-line="2012" selection-start-column="0" selection-end-line="2012" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/Setup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="171">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/Viewport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="171">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="437">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="37563" max-vertical-offset="42199">
-          <caret line="2014" column="0" selection-start-line="2014" selection-start-column="0" selection-end-line="2014" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/Setup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="171">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/Viewport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="171">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="437">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="37563" max-vertical-offset="42199">
-          <caret line="2014" column="0" selection-start-line="2014" selection-start-column="0" selection-end-line="2014" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/Setup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="171">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/Viewport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="171">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="437">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="37563" max-vertical-offset="42199">
-          <caret line="2014" column="0" selection-start-line="2014" selection-start-column="0" selection-end-line="2014" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="3306">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controller/Main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.sencha/app/ext.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.sencha/app/development.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.sencha/app/build.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.sencha/app/bootstrap-impl.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1273">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.sencha/app/codegen.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7524">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/config.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/Setup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mret42_save/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16180049" vertical-offset="0" max-vertical-offset="822">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16180049" vertical-offset="0" max-vertical-offset="822">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/Viewport.js">
-      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="171">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mret42_save/index.html">
+    <entry file="file://$PROJECT_DIR$/app/view/Main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="494" max-vertical-offset="1634">
-          <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="646">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1539" max-vertical-offset="1653">
-          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="437">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="190">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="171">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="646">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="114">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="437">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="190">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="171">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="646">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="437">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="190">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="247">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="42161">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="437">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="247">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="35226" max-vertical-offset="42123">
+          <caret line="1858" column="4" selection-start-line="1858" selection-start-column="4" selection-end-line="1858" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1501" max-vertical-offset="1653">
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="830" max-vertical-offset="1634">
+          <caret line="62" column="40" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/example/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="845">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="845">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.sencha/app/microloader/development.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8629808" vertical-offset="2854" max-vertical-offset="3686">
+          <caret line="188" column="5" selection-start-line="188" selection-start-column="5" selection-end-line="188" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.sencha/app/app.defaults.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7906977" vertical-offset="1311" max-vertical-offset="2128">
+          <caret line="103" column="27" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.sencha/workspace/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="845">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.sencha/app/defaults.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13604">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.023255814" vertical-offset="0" max-vertical-offset="817">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/asset/Growth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="557">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/Setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="557">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/field/Enumeration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="798">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03857868" vertical-offset="0" max-vertical-offset="985">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="957">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.sencha/workspace/sencha.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="961">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="557">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.sencha/app/sencha.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="950">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/API.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3306">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/production/MyRetirement/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="38" max-vertical-offset="798">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="171">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="380" max-vertical-offset="42199">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.88530463" vertical-offset="28671" max-vertical-offset="47082">
+          <caret line="1552" column="0" selection-start-line="1552" selection-start-column="0" selection-end-line="1552" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.sencha/app/build-impl.xml">
+    <entry file="file://$PROJECT_DIR$/app/view/Main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.85908526" vertical-offset="8729" max-vertical-offset="9538">
-          <caret line="496" column="0" selection-start-line="496" selection-start-column="0" selection-end-line="496" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.sencha/app/development.defaults.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="826">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.sencha/app/init-impl.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.023485785" vertical-offset="779" max-vertical-offset="5320">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.sencha/app/js-impl.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63017035" vertical-offset="1116" max-vertical-offset="1938">
-          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.sencha/app/resolve-impl.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35279804" vertical-offset="1344" max-vertical-offset="2166">
-          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.sencha/app/refresh-impl.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8924598" vertical-offset="1121" max-vertical-offset="1957">
-          <caret line="97" column="10" selection-start-line="97" selection-start-column="10" selection-end-line="97" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.sencha/app/resources-impl.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="323">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6258823" vertical-offset="0" max-vertical-offset="850">
+          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.sencha/workspace/sencha.cfg">
+    <entry file="file://$PROJECT_DIR$/../mret42_save/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0199387" vertical-offset="0" max-vertical-offset="779">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state vertical-scroll-proportion="-7.464286" vertical-offset="494" max-vertical-offset="1634">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7748593" vertical-offset="717" max-vertical-offset="1539">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -1364,18 +1040,6 @@
               <list>
                 <option value="0.2" />
                 <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.6</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
