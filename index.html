@@ -13,7 +13,7 @@
         }
     </style>
 
-    <!--<link rel="stylesheet" href="./resources/css/default/myretirement-relius-min.css"/>-->
+    <link rel="stylesheet" href="./resources/css/default/myretirement-relius-min.css"/>
     <!--[if IE]> <link rel="stylesheet" href="./resources/css/default/ie-min.css"/> <![endif]-->
     <!--[if lte IE 9 ]>
     <link rel="stylesheet" href="./resources/css/default/ie9-min.css">
@@ -48,7 +48,27 @@
             </script>
             <script src="bootstrap.js"></script>
         <!-- </x-bootstrap> -->
-        <script src="app.js"></script>
+
+    <script type="text/javascript" src="./app/RemoteApi.js"></script>
+
+    <script type="text/javascript">
+        window.help = {};
+        window.sgInitialClient = "1";
+        window.sgAdminId = "1";
+        window.sgCompanyId = "1";
+        window.sgClientProfileId = '1';
+        window.isStandardMR = true;
+        window.isDisclosureRequired = false;
+        window.disclaimerText = ' ';
+        window.caKeepAliveUrl = '';
+        window.caKeepAliveValue = 300000;
+        window.cfReturnRedirectUrl = ' ';
+        window.contributionLinkUrl = ' ';
+        window.showContributionLink = false;
+        window.extDirectBuffer = 100;
+    </script>
+
+    <script src="app.js"></script>
     <!-- </x-compile> -->
 </head>
 <body></body>
