@@ -1,0 +1,17 @@
+commit de1b42d3153d356e8f5f0eeb683f66a748b98115
+Author: Jeff Furgal <Jeff.Furgal@sungard.com>
+Date:   Fri Oct 3 16:49:39 2014 -0500
+
+    Committing after adding basic MR MVC classes.
+
+commit c1e11f6a512023d5336e084e644b58a0ed06cf5e
+Author: Jeff Furgal <Jeff.Furgal@sungard.com>
+Date:   Fri Oct 3 14:09:31 2014 -0500
+
+    Commiting after project build.
+
+commit 91819e77219f1ad20286f15ca82bc1371a7f7bb2
+Author: Jeff Furgal <Jeff.Furgal@sungard.com>
+Date:   Fri Oct 3 13:39:42 2014 -0500
+
+    Initial commit after project setup.

@@ -1,0 +1,1558 @@
+// Unless you want to include all components, you must set $include-default to false
+// IF you set this to true, you can also remove lines 10 to 38 of this file
+$include-default: false;
+
+// Insert your custom variables here.
+$base-color: #dee2e4;
+$purple: #35083e;
+$page-bg-color: $purple;
+$color: #525252;
+$placeholder-color: #9f9f9f;
+$link-color: #204980;
+$font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+$panel-body-color: $color;
+$loadmask-backgorund: $base-color;
+
+$table-border-color: #d1d1d1;
+
+$assets-color:   #cc8e3f;
+$income-color:   #4c6d06;
+$takehome-color: #8c5d89;
+$addl-color:     #8c5d89;
+$needs-color:    #3692ab;
+$wants-color:    #9ab5be;
+
+$include-ie: true;
+
+$legacy-support-for-ie: true;
+$legacy-support-for-ie8: true;
+
+// load ext default styles
+@import 'compass';
+@import 'ext4/default/all';
+
+@import 'compass/support';
+@import "compass/utilities";
+
+@import "compass/css3";
+@import "compass/css3/images";
+
+// load themed component variables
+@import 'default/variables/sg-panel';
+@import 'default/variables/sg-tabs';
+@import 'default/variables/sg-window';
+
+// set up sprite sheets and css
+@import "compass/utilities/sprites";
+$icons-sprite-dimensions: true;
+$module-nav-sprite-base-class: ".module-nav-sprite";
+$table-icon-sprite-base-class: ".table-sprite";
+
+// set up sprite sheets and css
+@import 'module-nav/*.png';
+@import 'table-icon/*.png';
+@include all-module-nav-sprites;
+@include all-table-icon-sprites;
+
+// initialize extra compass functions
+@import 'compass/utilities/general/clearfix';
+
+// You may remove any of the following modules that you
+// do not use in order to create a smaller css file.
+@include extjs-boundlist;
+@include extjs-button;
+@include extjs-btn-group;
+@include extjs-datepicker;
+@include extjs-colorpicker;
+@include extjs-menu;
+@include extjs-grid;
+@include extjs-form;
+    @include extjs-form-field;
+    @include extjs-form-fieldset;
+    @include extjs-form-file;
+    @include extjs-form-checkboxfield;
+    @include extjs-form-checkboxgroup;
+    @include extjs-form-triggerfield;
+    @include extjs-form-htmleditor;
+@include extjs-panel;
+@include extjs-qtip;
+@include extjs-slider;
+@include extjs-progress;
+@include extjs-toolbar;
+@include extjs-window;
+@include extjs-messagebox;
+@include extjs-tabbar;
+@include extjs-tab;
+@include extjs-tree;
+@include extjs-drawcomponent;
+@include extjs-viewport;
+
+// This line changes the location of your images when creating UIs to be relative instead of within the ExtJS directory.
+// You MUST set this to true/string value if you are creating new UIs + supporting legacy browsers.
+// This only applies to new UIs. It does not apply to default component images (i.e. when changing $base-color)
+// The value can either be true, in which case the image path will be "../images/"
+// or a string, of where the path is.
+// The value defaults to "../images/" when true.
+$relative-image-path-for-uis: true;
+
+@mixin antialiased {
+	@include experimental('font-smoothing', antialiased);
+}
+
+@mixin sg-btn {
+	@include background-gradient($table-border-color, 'bevel');
+	@include border-radius(.5em);
+	@include box-shadow(inset 0 1px 1px -1px white);
+	border: 1px solid $panel-border-color;
+	color: $color;
+	cursor: hand;
+	cursor: pointer;
+	padding: .5em 1em;
+	
+	.x-btn-inner {
+		font-size: $font-size;
+		width: 100% !important;
+	}	
+	
+	&:hover,
+	&:focus,
+	&.x-btn-over,
+	&.x-btn-focus { @include background-gradient(lighten($table-border-color, 10%), 'bevel'); }
+
+	&:active,
+	&.x-btn-pressed {
+		@include background-gradient($table-border-color, 'recessed');
+		@include box-shadow(none);
+	}
+	
+	&:disabled,
+	.x-disabled {
+		@include opacity(.7);
+		pointer-events: none;
+
+		.x-btn-inner {
+			@include opacity(.3);
+		}
+	}
+}
+
+body {
+	background: $page-bg-color inline-image('pinstripe.png');
+	@include antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+a {
+	@include link-colors($link-color);
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.viewport {
+	margin: 1em auto;
+	position: relative;
+	width: 1000px;
+	float: left;
+}
+
+.module-nav {
+	position: absolute;
+	right: 0;
+	top: 1.5em;
+	width: 300px;
+	z-index: 2;
+	
+	.x-btn {
+		margin-right: 1em;
+	}
+	
+	.x-btn-over {
+		@include opacity(.8);
+	}
+	
+	.x-btn-icon {
+		height: 19px;
+		left: 0;
+		top: 0;
+		width: 19px;
+	}
+	
+	select {
+//		font-size: medium;
+		font-style: inherit;
+		min-width: 12em;
+		
+		option {
+			font-style: inherit;
+		}
+	}
+}
+
+.primary-tabs {
+	.x-tab-bar-body {
+		overflow: visible;
+		top: 8px;
+		
+		.x-box-inner {
+			overflow: visible;
+		}
+	}
+}
+
+.x-tab-bar {
+	background: none;
+}
+
+.x-tab-bar-body {
+	border: none;
+}
+
+.x-tab-bar-strip {
+	display: none;
+}
+
+.x-tab {
+	background: $purple inline-image('tab-inactive-incomplete.png') repeat-x;
+	border-bottom-width: 0 !important;
+	border-right-width: 0 !important;
+	@include single-transition(top, 250ms);
+
+	.x-tab-inner {
+		@include antialiased;
+		font-size: $font-size + 1;
+	}
+	
+	&.complete {
+		background-image: inline-image('tab-inactive-complete.png');
+	}
+
+	em {
+		min-width: 7em;
+		padding: 0 1em;
+		text-align: center;
+	}
+	
+	&:last-child {
+		border-right-width: 1px !important;
+		@include box-shadow(none);
+	}
+	
+	&.saving {
+		background-image: url(../../images/default/tab-saving.gif);
+		.x-tab-inner {
+			color: white;
+		}
+	}
+
+	&.x-tab-active {
+		@include background(
+			inline-image('tab-active-incomplete.png') repeat-x,
+			linear-gradient(white, $base-color),
+			$base-color
+		);
+		border-right-width: 1px !important;
+		@include inner-border($width: 1px 0 0 1px, $color: white);
+		height: 45px;
+		padding-top: 3px;
+		top: -4px !important;
+		
+		.x-tab-inner {
+			color: $tab-base-color;
+		}
+		
+		&.complete {
+			@include background(
+				inline-image('tab-active-complete.png') repeat-x,
+				linear-gradient(white, $base-color),
+				$base-color
+			);
+		}
+		
+		&:first-child {
+			@include inner-border($width: 1px 0 0, $color: white);
+		}
+		
+		& + .x-tab {
+			border-left-width: 0 !important;
+			@include inner-border($width: 0 1px, $color: $tab-inner-border-color);
+		}
+	}
+}
+
+.app-panel-body {
+	border-top-color: white;
+}
+
+.chart-panel {
+	background: #d6dadc inline-image('diag.png');
+	text-align: center;
+	
+	.x-panel-body {
+		background: none;
+		border-top-color: #9c9c9d;
+		border-width: 0 0 0 1px;
+		padding: 1.5em;
+	}
+	
+	.x-panel-header-default {
+		border: none;
+	}
+	
+	hr {
+		background: none;
+		border-top: 1px solid $panel-body-border-color;
+		border-bottom: 1px solid rgba(white, .5);
+		margin: 0.5em 0;
+	}
+	
+	.x-btn {
+		@include sg-btn;
+        top: -10px;
+	}
+	
+	select {
+		border: 1px solid $panel-border-color;
+	}
+}
+
+.chart-container {
+	&.zoomable {
+		background: inline-image('chart-zoom.png') no-repeat right .5em;
+		
+		// take a deep breath...
+		cursor: pointer;
+//		cursor: crosshair;
+		cursor: -moz-zoom-in;
+		cursor: -webkit-zoom-in;
+		cursor: zoom;
+		cursor: zoom-in;
+	}
+}
+
+.chart-title {
+	font-size: ceil($font-size * 1.2);
+	font-weight: bold;
+	margin-bottom: .5em;
+	text-align: center;
+	text-shadow: 0 1px 0 white;
+	
+	.total {
+		color: $link-color;
+		font-size: ($font-size * 2);
+		margin-top: .25em;
+	}
+}
+
+.x-tip {
+	@include background-image(linear-gradient( white, $base-color ));
+}
+
+.chart-tip {
+	border: 2px solid;
+
+	h1 {
+		display: inline;
+		margin-right: .5em;
+	}
+}
+
+.swatch {
+	background: #4c6d06;
+	display: inline-block;
+	float: left;
+	height: 1em;
+	margin-right: .5em;
+	vertical-align: top;
+	width: 1.5em;
+}
+
+.chart-legend {
+	li {
+		overflow: hidden;
+		padding: .5em;
+		white-space: nowrap;
+	}
+
+	.swatch {
+		border: 1px solid white;
+		outline: 1px solid $panel-body-border-color;
+	}
+	
+	.swatch-name {
+		float: left;
+	}
+	
+	.value {
+		float: right;
+	}
+
+	&.horizontal {
+		text-align: center;
+		li {
+			display: inline-block;
+			& + li {
+				margin-left: .5em;
+			}
+		}
+	}
+}
+
+.swatch {
+	.legend-assets & { background-color: $assets-color; }
+	.legend-income & { background-color: $income-color; }
+	.legend-takehome & { background-color: $takehome-color; }
+	.legend-addl & { background-color: $addl-color; }
+	.legend-needs & { background-color: $needs-color; }
+	.legend-wants & { background-color: $wants-color; }
+	.chart-legend-icon & {
+		vertical-align: baseline;
+		width: 1.0em;
+	}
+}
+
+.chart-switcher {
+	margin: 1em auto 0;
+	max-width: 100%;
+}
+
+.what-if-amount-desc {
+	position: relative;
+	.chart-legend-icon {
+		position: absolute;
+		left: -0.60em;
+	}
+}
+
+.what-if-money-text {
+	text-align: right !important;
+	margin-right: 15px !important;
+}
+
+.what-if-emphasized-money-text {
+	@extend .what-if-money-text;
+	font-weight: bold !important;
+	font-size: 110% !important;
+}
+
+.data-panel-ct {
+	padding: 1.5em;
+}
+
+.data-panel {
+	@include box-shadow(0 .25em .5em -.25em rgba(black, .25));
+	clear: both;
+	margin-bottom: 1.5em;
+}
+
+.data-panel-body {
+	background: #f2f2f2;
+	border-top: none;
+	padding: 1em;
+}
+
+.x-panel-header {
+	@include box-shadow(none);
+	
+	.x-panel-header-text-container {
+		@include box-shadow(inset 0 -1px 0 #9c9c9d);
+	}
+
+	.x-panel-header-text {
+		visibility: hidden;
+	}
+}
+
+.panel-body-header {
+	margin: 0 0 1em;
+	overflow: hidden;
+
+	h1 {
+		font-size: large;
+		font-weight: bold;
+		overflow: hidden;
+	}
+	
+	.tools {
+		margin-top: .25em;
+		overflow: hidden;
+	}
+	
+	.left {
+		float: left;
+	}
+	
+	.right {
+		float: right;
+	}
+
+	.save-more-title {
+		min-width: 45.0em;
+		width: 45.4em;
+	}
+}
+
+.panel-body-footer {
+	margin: 1em 0 0;
+}
+
+@mixin disabled-input {
+	border-color: #eee;
+	border-color: transparent; // if supported
+	color: #aaa;
+	font-style: italic;
+	text-align: center;	
+}
+
+.input-placeholder {
+    color: $placeholder-color;
+}
+
+.datatable {
+	border: 1px solid $table-border-color;
+	width: 100%;
+	
+	input {
+		background-repeat: no-repeat;
+		background-position: 1px center;
+		border: 1px solid $table-border-color;
+		@include border-radius(.25em);
+		height: 19px;
+		margin: 0;
+		padding: 2px .25em;
+		text-align: right;
+		
+		&:focus {
+			border-color: #6A0080; // adjusted purple
+		}
+		
+		&:disabled {
+			@include disabled-input;
+		}
+	}
+	
+	.x-item-disabled {
+		input {
+			@include disabled-input;
+		}
+	}
+	
+	td, th {
+		border-bottom: 1px solid $table-border-color;
+		padding: .5em 1em;
+		text-align: center;
+	}
+	
+	th {
+		background: $base-color;
+		@include background(linear-gradient( $base-color, #f2f2f2 ));
+		font-size: ceil($font-size * .9);
+		@include antialiased;
+		font-weight: bold;
+		vertical-align: bottom;
+		
+		.weak {
+			font-weight: normal;
+		}
+	}
+	
+	td {
+		background: white;
+		white-space: nowrap;
+	}
+	
+	tr {
+		& > :first-child { text-align: left; padding-left: 1em; }
+		& > :last-child  { text-align: right; }
+	}
+	
+	select {
+		border: 1px solid $table-border-color;
+		@include box-sizing(border-box);
+		margin: 0;
+		min-width: 100%;
+		
+		&:focus {
+			border-color: $purple;
+		}
+	}
+	
+	th[colspan]:first-child { // e.g., expandable columns
+		padding-left: 1em;
+	}
+	
+	// expanded section
+	.details-row {
+		visibility: hidden;
+		
+		td {
+			border-bottom-width: 0;
+			padding: 0;
+		}
+
+		.td-ct {
+			background: lighten($base-color, 5%);
+			@include background(linear-gradient( $base-color, rgba($base-color, 0.4) 10%, rgba($base-color, 0.4) 98%, white 99% ));
+			border-left: .5em solid $table-border-color;
+			height: 0;
+			overflow: hidden;
+			padding: 0;
+			pointer-events: none;
+			text-align: left;
+			
+			& > * {
+				opacity: 0;
+				@include transition(transform 1s, opacity 1s);
+				@include translate3d(-5%, 0, 0);
+			}
+		}
+	}
+	
+	// selected row
+	tr.selected {
+		td {
+			background: adjust-color($purple, $lightness: 75%, $saturation: -65%);
+			color: $purple;
+			font-weight: bold;
+		}
+	}
+}
+
+.col-expand {
+	cursor: pointer;
+	padding: .5em 0 .5em .5em !important;
+	width: 15px;
+}
+
+.col-delete {
+	@extend .col-expand;
+	padding: .5em .5em .5em 0 !important; width: 15px !important;
+}
+
+.expanded {
+	.details-row {
+		visibility: visible;
+
+		td {
+			border-bottom-width: 1px;
+		}
+
+		.td-ct {
+			height: auto;
+			padding: 1em .5em;
+			pointer-events: all;
+
+			& > * {
+				opacity: 1;
+				@include transition(transform 1s, opacity 1s);
+				@include translate3d(5%, 0, 0);
+			}
+		}
+	}
+}
+
+.tight-spacing {
+	td, th {
+		padding: .5em;
+	}
+	
+	.col-delete {
+		
+	}
+}
+
+.whatif-table-participant {
+	&.datatable {
+		border: 0;
+
+		.x-btn {
+			@include sg-btn;
+			margin-left: 1.5em;
+			width: 16.5em !important;
+			padding: .5em .5em;
+		}
+
+		.x-btn-primary-large {
+			@include background-gradient(adjust-color($purple, $saturation: -40%, $lightness: 10%), 'bevel');
+			border-color: $purple;
+			border-width: 2px !important;
+
+			.x-btn-inner {
+				color: white;
+				font-weight: bold;
+			}
+
+			&.x-btn-over,
+			&.x-btn-focus { @include background-gradient(lighten($purple, 20%), 'bevel'); }
+
+			&.x-btn-pressed { @include background-gradient($purple, 'recessed'); }
+		}
+
+		td, th {
+			border-bottom: 0;
+			padding: .5em 1em;
+			text-align: left;
+			background-color: white;
+		}
+
+		th {
+//			background: #F2F2F2;
+			font-size: ceil($font-size * 1.25);
+			@include antialiased;
+			font-weight: bold;
+			vertical-align: middle;
+
+			.weak {
+				font-weight: normal;
+			}
+		}
+
+		td {
+//			background: #F2F2F2;
+			white-space: nowrap;
+		}
+
+		.sub-item {
+			text-indent: 1em;
+			text-align: left;
+		}
+
+		.x-slider-thumb {
+			background-image: inline-image('slider-thumb.png');
+			height: 21px;
+		}
+
+		.x-slider-horiz .x-slider-inner {
+			height: 24px;
+		}
+	}
+}
+
+.summary-line {
+	height: 0;
+	border-top: 2px solid #000000;
+	margin: 0 0 0 5px;
+}
+
+.begins,
+.ends {
+	float: left;
+	padding: 0 1.5em;
+	width: 50%;
+	
+	label span {
+		@include antialiased;
+		font-size: ceil($font-size * .9);
+		font-weight: bold;
+		margin-right: .5em;
+	}
+	
+	.field-reldate {
+		margin-bottom: .25em;
+
+		select {
+			min-width: 0;
+		}
+	}
+	
+	.field-enumeration {
+		display: inline;
+		
+		select {
+			margin-right: .5em;
+		}
+	}
+	
+	.subfield-month,
+	.subfield-year,
+    .subfield-months,
+    .subfield-years,
+	.subfield-autovalue,
+	.subfield-age {
+		display: inline;
+		line-height: 2;
+	}
+
+    .subfield-months,
+    .subfield-years {
+        color: $placeholder-color;
+    }
+
+  .subfield-year,
+	.subfield-months {
+		margin-left: .25em;
+	}
+	
+	.subfield-age {
+		input { width: 2.5em; }
+	}
+	
+	.subfield-year,
+	.subfield-years {
+		input { width: 3.5em; }
+	}
+	
+	.subfield-month,
+	.subfield-months {
+		input { width: 4.5em; }
+	}
+}
+
+.ends {
+	border-left: 1px solid $table-border-color;
+}
+
+input {
+	.field-years   &,
+	.field-months  & { width: 3em; }
+	.field-percent & { width: 5em; }
+	.field-money   & { width: 7em; }
+	.col-name      & { width: 11em; text-align: left; }
+}
+
+.col-name {
+	text-align: left !important;
+	width: 11em;
+}
+
+td.clientNameLeftAlign {
+	text-align: left !important;
+	padding-left: 3.4em !important;
+	font-weight: bold;
+}
+
+td.clientBirthDateLeftAlign {
+	text-align: left !important;
+	font-weight: bold;
+}
+
+td.col-clientLabel {
+	font-size: 1.25em
+}
+
+td.col-clientFirstName {
+	padding-bottom: 0.3em
+}
+
+.col-clientFirstName {
+	text-align: center;
+}
+
+.col-clientFirstName > input {
+	text-align: left;
+	height: 21px;
+}
+
+td.col-clientLastName {
+	padding-bottom: 0.3em
+}
+
+.col-clientLastName {
+	text-align: center;
+}
+
+.col-clientLastName > input {
+	text-align: left;
+	height: 21px;
+}
+
+.col-clientBirthDate input {
+	text-align: right;
+}
+
+.col-clientBirthDate input {
+	text-align: left;
+}
+
+.col-clientBirthDate {
+	text-align: center;
+}
+
+td.col-clientBirthDate {
+	padding-top: .8em;
+	padding-bottom: 0.2em;
+	padding-left: 3em;
+	text-align: center;
+}
+
+#clientBirthDate-labelCell {
+	border: 0;
+	padding-left: 0em;
+	padding-right: 0em;
+	text-align: center;
+}
+
+#clientBirthDate-bodyEl {
+	border: 0;
+	padding-left: 0em;
+	padding-right: 0em;
+	text-align: center;
+}
+
+#clientBirthDate-triggerWrap > tbody > tr > td {
+	border: 0;
+	padding-left: 0em;
+	padding-right: 0em;
+	text-align: center;
+}
+
+#spouseBirthDate-labelCell {
+	border: 0;
+	padding-left: 0em;
+	padding-right: 0em;
+	text-align: center;
+}
+
+#spouseBirthDate-bodyEl {
+	border: 0;
+	padding-left: 0em;
+	padding-right: 0em;
+	text-align: center;
+}
+
+#spouseBirthDate-triggerWrap > tbody > tr > td {
+	border: 0;
+	padding-left: 0em;
+	padding-right: 0em;
+	text-align: center;
+}
+
+.col-clientBirthDate tr > :first-child {
+	text-align: center;
+	padding-left: 0;
+}
+
+.col-clientBirthDate tr > :last-child {
+	text-align: center;
+	padding-right: 0;
+}
+
+td.col-clientGender {
+	padding-bottom: 0.3em
+}
+
+.table-header-dropDown {
+	width: 10em;
+}
+
+.field-years, .field-months {
+	display: inline;
+}
+
+.field-years + .field-months {
+	margin-left: .5em;
+}
+
+// validation
+
+$err-color: #f4bd23;
+
+@-webkit-keyframes nuh-uh {
+	  0%,
+	 50%,
+	100% { -webkit-transform: translate3d(  0, 0, 0) }
+	 25% { -webkit-transform: translate3d(-5%, 0, 0) }
+	 75% { -webkit-transform: translate3d( 5%, 0, 0) }
+}
+
+.table-error {
+	td {
+		@include background-gradient(lighten($err-color, 10%), 'glossy');
+		color: darken($err-color, 33%);
+		font-weight: bold;
+		padding: .5em 1em;
+		text-align: center !important;
+		text-shadow: 0 1px 1px white;
+	}
+}
+
+.field-invalid {
+/*
+	&:after {
+		content: inline-image('warning-icon.png');
+		margin-left: .25em;
+		opacity: 0;
+		position: absolute;
+	}
+*/
+
+	input,
+	select {
+		background-color: lighten($err-color, 33%);
+		border-color: darken($err-color, 10%);
+		text-shadow: 0 1px 0 lighten($err-color, 33%);
+/*
+		-webkit-animation-name: nuh-uh;
+		-webkit-animation-iteration-count: 3;
+		-webkit-animation-duration: 100ms;
+*/
+	}
+}
+
+.field-highlighted {
+/*
+	&:after {
+		opacity: 1;
+	}
+*/
+	input {
+		background-image: inline-image('warning-icon.png');
+	}
+}
+
+// tweaks for specific tables
+
+.assets-retirementaccounts {
+	input, select {
+		max-width: 100%;
+	}
+
+    .field-percent input {
+        width: 3.5em;
+    }
+
+	td, th {
+		max-width: 7.5em;
+//		&.col-name { padding-right: 0; }// max-width: 9em; }
+	}
+	
+	.col-owner {
+		max-width: none;
+	}
+}
+
+.assets-investmentaccounts {
+	.col-name {
+		width: 100%;
+		
+		input { width: 100%; }
+	}
+
+	.field-percent {
+		text-align: right;
+	}
+	
+	select {
+		min-width: 0;
+		max-width: 100%;
+	}
+	
+	th {
+		white-space: nowrap;
+	}
+}
+
+.income-socialsecurity {
+	.col-survivorBenefitRate {
+		text-align: center !important;
+	}
+	
+	.col-socialSecurityFullMonthlyBenefit {
+		.field-money {
+			display: inline;
+		}
+	}
+}
+
+.withdrawal-rate {
+	.panel-body-header {
+		margin-bottom: 2em;
+		position: relative; // so we can position the monthly amount callout
+	}
+	
+	p {
+		font-size: ceil($font-size * 1.1);
+		line-height: 1.5;
+		margin: 1em 0 0 1em;
+	}
+	
+	strong {
+		color: $purple;
+		font-size: ceil($font-size * 1.333);
+		font-weight: bold;
+	}
+	
+	.monthly {
+		background: #4c2a4b inline-image('monthly-callout.png') no-repeat center bottom;
+		bottom: 0;
+		color: white;
+		font-size: $font-size * 2.5;
+		letter-spacing: 1px;
+		padding: 0 .5em;
+		padding-left: .75em;
+		position: absolute;
+		right: 0;
+		text-shadow: 1px 1px 1px black;
+		
+		&:before {
+			content: inline-image('callout-chevrons.png');
+			left: -30px;
+			margin-top: -20px;
+			position: absolute;
+			top: 50%;
+		}
+	}
+	
+	mark {
+		background: inline-image('squiggle.png') repeat-x bottom;
+		color: inherit;
+		cursor: help;
+		padding-bottom: 1px;
+	}
+
+	.datatable {
+		background: #f9f9f9 inline-image('diag.png');
+		font-size: ceil($font-size * 1.1);
+	}
+	
+	th {
+		font-size: $font-size + 1;
+		padding: .5em 1.5em;
+		vertical-align: middle;
+	}
+	
+	td {
+		border: none;
+	}
+
+	                  td { background: transparent; padding: .25em .5em; }
+	tr:nth-child(odd) td { background: white; }
+
+	.col-name {
+		font-weight: bold;
+		padding: .25em 1.5em;
+		width: 100%; // like flex: 1
+	}
+	
+	th.col-name {
+		padding: .25em 1.5em;
+	}
+
+	.col-probability-group {
+		text-align: center !important;
+		white-space: nowrap;
+	}
+	
+	.col-probability {
+		font-size: ceil($font-size * 1.3);
+		text-align: center;
+	}
+	
+	button {
+		@include sg-btn;
+        padding: .5em;
+        font-size: 14px;
+        width: 6.5em !important;
+		
+		&.selected {
+			@include background-gradient(lighten($purple, 10%), 'recessed');
+			border-color: black;
+			color: white;
+			text-shadow: 0 1px 0 black;
+		}
+
+        &.rateDisplayType {
+          width: 2.5em !important;
+          padding: 0.25em;
+          margin: 0;
+        }
+	}
+}
+
+.stack-chart {
+	@include background(linear-gradient( rgba(#f2f2f2, 0), #f2f2f2 ));
+	@include pie-clearfix;
+	background: #d6dadc inline-image('diag.png');
+	border: 1px solid $panel-body-border-color;
+	border-width: 1px 1px 0;
+	@include border-image(1 -webkit-linear-gradient( rgba($panel-border-color,0), $panel-border-color ));
+	padding: 1.5em 100px 0;
+	position: relative; // to position baseline
+	
+	.baseline {
+		border-top-color: black;
+		border-bottom-color: rgba(white, .5);
+		border-style: dashed;
+		border-width: 1px 0;
+		bottom: 45%;
+		left: 50%;
+		margin: 0;
+		margin-left: -400px;
+		position: absolute;
+		width: 800px;
+		z-index: 3;
+		
+		&::before,
+		&::after {
+			background: inline-image('baseline-caps.png') no-repeat;
+			content: ' ';
+			height: 9px;
+			position: absolute;
+			top: -5px;
+			width: 5px;
+		}
+		
+		&::before {
+			left: -7px;
+		}
+		
+		&::after {
+			background-position: -5px 0;
+			right: -7px;
+		}
+	}
+
+	header {
+		@include background-gradient($table-border-color, 'bevel');
+		@include box-shadow(0 1px 3px rgba(black, .1), inset 0 0 1px white);
+		border: 1px solid $panel-border-color;
+		@include border-radius(.5em);
+		cursor: pointer;
+		font-size: ceil($font-size * 1.2);
+		font-weight: bold;
+		margin: 0 5%;
+		padding: .333em;
+		text-shadow: 0 1px 0 white;
+		
+		&:hover,
+		&:focus { @include background-gradient(lighten($table-border-color, 10%), 'bevel'); }
+
+		&:active {
+            @include background-image(linear-gradient(
+                darken($table-border-color, 6%),
+				$table-border-color 35%,	                
+                lighten($table-border-color, 8%) 60%,
+                lighten($table-border-color, 40%)
+            ));
+			@include box-shadow(none);
+		}
+	}
+	
+	.amount {
+		color: $link-color;
+		font-size: ($font-size * 2);
+		height: 1.3em;
+	}
+
+	.stack {
+		border: 1px solid transparent;
+		border-width: 1px 1px 0;
+		float: left;
+		margin-bottom: -1px;
+		padding: 1.5em 3em;
+		position: relative; // to enable z-index
+		text-align: center;
+		width: 33%;
+		z-index: 2;
+
+		&.active {
+			background: #c5c5c6;
+			@include background-image(linear-gradient( lighten(#c5c5c6, 5%), #c5c5c6 ));
+			border-color: $panel-header-border-color;
+			
+			header {
+	            @include background-image(linear-gradient(
+	                darken($table-border-color, 6%),
+					$table-border-color 35%,	                
+	                lighten($table-border-color, 8%) 60%,
+	                lighten($table-border-color, 85%)
+	            ));
+			}
+			
+			.amount {
+				color: $purple;
+				font-weight: bold;
+			}
+		}
+		
+		&.no-button {
+			header {
+				background: none;
+				border-color: transparent;
+				@include box-shadow(none);
+				cursor: default;
+				pointer-events: none;
+			}
+		}
+	}
+
+	.bar-ct {
+		border-bottom: 1px solid #666;
+		@include box-shadow(inset 0 -.5em .5em -.5em rgba(black, .5));
+		margin-top: 2em;
+		height: 150px;
+		padding: 0 1em;
+		position: relative; // to position bars
+	}
+	
+	.bar {
+		background: white;
+		border: 1px solid #666;
+		border-color: rgba(black, .3);
+		border-bottom: none;
+		bottom: 0;
+		@include box-shadow(inset 0 1px 1px rgba(white, .5));
+		height: 0;
+		position: absolute;
+		left: 5%;
+		@include transition(all 500ms);
+		width: 90%;
+	}
+	
+	.bar-assets   { background-color: $assets-color; }
+	.bar-income   { background-color: $income-color; }
+	.bar-takehome { background-color: $takehome-color; }
+	.bar-addl     { background-color: $addl-color; }
+	.bar-needs    { background-color: $needs-color; }
+	.bar-wants    { background-color: $wants-color; }
+}
+
+.comparison-panel {
+	.datatable {
+		@include box-shadow(0 0.25em 0.5em -0.25em rgba(black, 0.25));
+	}
+	
+	.data-panel {
+		.x-btn {
+			@include sg-btn;
+			
+			& + .x-btn {
+				margin-left: 1.5em;
+			}
+		}		
+	}
+
+	td, th {
+		padding: .5em 2em;
+		text-align: right;
+	}
+	
+	th {
+		white-space: nowrap;
+	}
+	
+	tbody {
+		th {
+			background: white;
+			font-size: inherit;
+			font-weight: normal;
+			height: 3em;
+			text-align: left;
+			vertical-align: middle;	
+		}
+		
+		.sub-item {
+			text-indent: 1em;
+		}
+	}
+	
+	.col-line-item {
+		width: 100%;
+	}
+	
+	.total-row {
+		th, td {
+			border-top: 3px solid $table-border-color;
+		}
+	}
+	
+	.total-col,
+	.total-col input {
+		color: $purple;
+		font-weight: bold;
+	}
+	
+	.col-needs {
+		text-align: center;
+		width: 300px;
+		
+		.x-field .x-form-item-body { // neutralize some td styling inside the slider field
+			border: none;
+			padding: 0;
+		}
+	}
+	
+	.col-percent {
+		padding-left: 0;
+	}
+	
+	.x-slider-thumb {
+		background-image: inline-image('slider-thumb.png');
+		cursor: pointer; // old ie
+		cursor: hand; // css2
+		cursor: ew-resize; // css3
+	}
+	
+	.buttons-ct {
+		margin-top: 1.5em;
+		text-align: right;
+	}
+}
+
+.take-home-pay {
+	th.col-client,
+	th.col-spouse {
+		text-align: center;
+	}
+}
+
+.my-budget {
+	th {
+		padding-right: 2.67em;
+	}
+}
+
+.whatif-chart, .whatif-chart-participant {
+	padding: 0 200px;
+	
+	.baseline {
+		margin-left: -300px;
+		width: 600px;
+	}
+	
+	.stack {
+		width: 50%;
+	}
+}
+
+.whatif-table {
+	th, td {
+		padding: .5em 5em;
+		text-align: center !important;
+	}
+	
+	td {
+		cursor: hand;
+		cursor: pointer;
+	}
+	
+	.col-selected {
+		white-space: nowrap;
+	}
+}
+
+.table-icon {
+	cursor: hand; // ie
+	cursor: pointer;
+	display: block;
+	height: 15px;
+	@include opacity(.75);
+	vertical-align: -4px;
+	width: 15px;
+	
+	&:hover, td:hover & { @include opacity(1); }
+//	&:focus { outline: 1px solid $purple !important; }
+}
+
+.table-icon-collapsed {
+	@include transition(transform 500ms);
+
+	.expanded & {
+		.csstransforms & {
+			@include rotate(90deg);
+		}
+		
+		.no-csstransforms & {
+			@extend .table-icon-expanded;
+		}
+	}
+}
+
+.reset-field,
+.reset-both,
+.reset-spacer {
+	background-repeat: no-repeat;
+	cursor: hand;
+	cursor: pointer;
+	display: inline-block;
+	height: 24px;
+	margin-left: .25em;
+	vertical-align: middle;
+	width: 24px;
+}
+
+.reset-field  { background-image: inline-image('reset-field.png'); }
+.reset-both   { background-image: inline-image('reset-both.png'); }
+.reset-spacer { pointer-events: none; }
+
+.reset-button {
+	.x-item-disabled & { visibility: hidden; }
+}
+
+.merge-with-next {
+	th {
+		background: $base-color;
+		border-bottom: none;
+		padding-bottom: 0;
+	}
+}
+
+.main-nav {
+	text-align: right;
+	
+	.x-btn {
+		@include sg-btn;
+		margin-left: 1.5em;
+		width: 10em !important;
+		padding: .5em .5em;
+	}
+
+	.x-btn-primary-large {
+		@include background-gradient(adjust-color($purple, $saturation: -40%, $lightness: 10%), 'bevel');
+		border-color: $purple;
+		border-width: 2px !important;
+		
+		.x-btn-inner {
+			color: white;
+			font-weight: bold;
+		}
+		
+		&.x-btn-over,
+		&.x-btn-focus { @include background-gradient(lighten($purple, 20%), 'bevel'); }
+
+		&.x-btn-pressed { @include background-gradient($purple, 'recessed'); }
+	}
+}
+
+.x-btn button { width: 100% !important; }
+
+.app-footer {
+	background: white;
+	border-top: 1px solid $panel-body-border-color !important;
+	@include box-shadow(0 0 1em rgba(black, .25));
+	padding: .75em 1.5em .5em;
+	
+	.chart-legend {
+		text-align: left;
+	}
+	
+	li {
+		margin-right: 1em;
+		overflow: visible;
+		padding: 0;
+	}
+}
+
+.x-window-header-default-top {
+	@include background-gradient(adjust-color($purple, $saturation: -40%, $lightness: 10%), 'bevel');
+	@include box-shadow(none);
+	color: white;
+	padding: .5em;
+}
+
+.x-window-body-default {
+	background: #d6dadc inline-image('diag.png');
+}
+
+.x-window {
+	.x-tool-close {
+		background-image: inline-image('window-close.png');
+	}
+}
+
+.input-placeholder {
+  color: #9f9f9f;
+}
