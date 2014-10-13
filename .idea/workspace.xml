@@ -2,262 +2,104 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc37f170-ebc9-4c7f-b55d-241f492ef527" name="Default" comment="Valid build with a little more old MyRetirement code.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/arrow-left-white.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/arrow-right-white.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/button/arrow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/arrows-rtl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/arrows.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/shared/blue-loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/button/btn.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/shared/calendar.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/cell-special-bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/cell-special-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/cell-special-selected-bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/cell-special-selected-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/checkbox.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/menu/checked.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/clear-trigger-rtl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/clear-trigger.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/col-move-bottom.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/col-move-top.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/columns.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/box/corners-blue.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/box/corners.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/date-trigger-rtl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/date-trigger.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/dd-insert-arrow-left.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/dd-insert-arrow-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/dd-insert-arrow-right.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/dd-insert-arrow-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tab-bar/default-scroll-bottom-left.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tab-bar/default-scroll-bottom-right.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tab-bar/default-scroll-left-bottom.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tab-bar/default-scroll-left-top.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tab-bar/default-scroll-right-bottom.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tab-bar/default-scroll-right-top.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tab-bar/default-scroll-top-left.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tab-bar/default-scroll-top-right.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/dirty-rtl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/dirty.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/done.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/drop-above.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/dd/drop-add.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/drop-add.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/drop-append.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/drop-below.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/drop-between.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/dd/drop-no.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/drop-no.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/drop-no.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/drop-over.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/drop-under.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/dd/drop-yes.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/drop-yes.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/drop-yes.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/sizer/e-handle-dark.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/sizer/e-handle.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-end-minus-rtl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-end-minus.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-end-plus-rtl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-end-plus.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-end-rtl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-end.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-line-rtl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-line.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-minus-nl-rtl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-minus-nl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-minus-rtl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-minus.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-plus-nl-rtl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-plus-nl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-plus-rtl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-plus.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow-rtl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/elbow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/error-tip-corners.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/exclamation.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/folder-open-rtl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/folder-open.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/folder-rtl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/folder.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/footer-bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/shared/glass-bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/grid-blue-hd.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/grid-blue-split.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/grid-hrow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/grid-loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/grid-split.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/grid-vista-hd.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/grid3-hd-btn-left.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/grid3-hd-btn.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/grid3-hrow-over.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/grid3-hrow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/grid3-rowheader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/group-by.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/menu/group-checked.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/group-collapse.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/button/group-cs.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/group-expand-sprite.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/group-expand.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/button/group-lr.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/button/group-tb.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/hd-pop.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/shared/hd-sprite.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/hmenu-asc.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/hmenu-desc.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/hmenu-lock.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/hmenu-lock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/hmenu-unlock.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/hmenu-unlock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/shared/icon-error.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/shared/icon-info.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/shared/icon-question.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/shared/icon-warning.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/invalid_line.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/menu/item-over.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/box/l-blue.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/box/l.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/shared/large-loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/leaf-rtl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/leaf.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/shared/left-btn.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/shared/loading-balls.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/menu/menu-parent-left.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/menu/menu-parent.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/menu/menu.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/layout/mini-bottom.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/util/splitter/mini-bottom.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/layout/mini-left.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/util/splitter/mini-left.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/layout/mini-right.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/util/splitter/mini-right.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/layout/mini-top.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/util/splitter/mini-top.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/toolbar/more-left.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/toolbar/more.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/mso-hd.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/sizer/ne-handle-dark.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/sizer/ne-handle.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/nowait.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/sizer/nw-handle-dark.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/sizer/nw-handle.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/page-first-disabled.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/page-first.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/page-last-disabled.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/page-last.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/page-next-disabled.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/page-next.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/page-prev-disabled.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/page-prev.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/pick-button.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/property-cell-bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/property-cell-selected-bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/box/r-blue.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/box/r.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/radio.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/refresh-disabled.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/refresh.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/shared/right-btn.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/row-check-sprite.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/row-expand-sprite.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/row-over.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/row-sel.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/button/s-arrow-b-noline.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/button/s-arrow-b.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/button/s-arrow-bo.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/button/s-arrow-light-rtl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/button/s-arrow-light.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/button/s-arrow-noline-rtl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/button/s-arrow-noline.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/button/s-arrow-o-rtl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/button/s-arrow-o.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/button/s-arrow-rtl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/button/s-arrow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/sizer/s-handle-dark.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/sizer/s-handle.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tree/s.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/menu/scroll-bottom.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/toolbar/scroll-left.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/toolbar/scroll-right.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/menu/scroll-top.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/sizer/se-handle-dark.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/sizer/se-handle.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/search-trigger-rtl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/search-trigger.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/shared/shadow-c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/shared/shadow-lr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/shared/shadow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/slider/slider-bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/slider/slider-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/slider/slider-thumb.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/slider/slider-thumb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/slider/slider-v-bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/slider/slider-v-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/slider/slider-v-thumb.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/slider/slider-v-thumb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/sort-hd.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/sort_asc.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/sort_desc.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/spinner-rtl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/spinner-small-rtl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/spinner-small.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/spinner.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/sizer/square.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/sizer/sw-handle-dark.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/sizer/sw-handle.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tab/tab-default-close.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/box/tb-blue.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/editor/tb-sprite.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/box/tb.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/text-bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tools/tool-sprite-tpl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tools/tool-sprites.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/tools/tools-sprites-trans.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/boundlist/trigger-arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/trigger-rtl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/trigger-square-rtl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/trigger-square.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/trigger-tpl-rtl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/trigger-tpl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/form/trigger.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/menu/unchecked.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/grid/wait.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/images/shared/warning.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/model/Enumeration.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/model/asset/Growth.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/MyRetirement-all.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/development/MyRetirement/resources/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/model/asset/Retirement.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/model/asset/RetirementComposition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/example/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/compass_library.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/config.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/example/example.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mret42.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/stats.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Application.js" afterPath="$PROJECT_DIR$/app/Application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/Main.js" afterPath="$PROJECT_DIR$/app/view/Main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/view/Setup.js" afterPath="$PROJECT_DIR$/app/view/Setup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/app.js" afterPath="$PROJECT_DIR$/build/production/MyRetirement/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap.css" afterPath="$PROJECT_DIR$/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/model/relius/AboutYou.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/model/whatif/AdditionalInvestment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/model/income/Annuity.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/AppPanel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/model/setup/AssetAllocation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/model/withdrawal/AssetAllocation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/Assets.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/model/comparison/Budget.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/ChartPanel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/Comparison.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/model/comparison/Data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/view/DataHeader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controller/Development.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/model/withdrawal/RateData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/model/income/Retirement.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/model/income/RetirementAverage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/model/whatif/SavingMore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/model/setup/SetupInfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/model/income/SocialSecurity.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/model/comparison/TakeHomePay.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/compass_library.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-large-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-large-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-large-disabled-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-large-disabled-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-large-focus-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-large-focus-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-large-over-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-large-over-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-large-pressed-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-large-pressed-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-medium-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-medium-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-medium-disabled-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-medium-disabled-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-medium-focus-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-medium-focus-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-medium-over-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-medium-over-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-medium-pressed-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-medium-pressed-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-small-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-small-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-small-disabled-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-small-disabled-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-small-focus-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-small-focus-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-small-over-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-small-over-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-small-pressed-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-small-pressed-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-toolbar-large-disabled-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-toolbar-large-disabled-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-toolbar-large-focus-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-toolbar-large-focus-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-toolbar-large-over-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-toolbar-large-over-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-toolbar-large-pressed-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-toolbar-large-pressed-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-toolbar-medium-disabled-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-toolbar-medium-disabled-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-toolbar-medium-focus-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-toolbar-medium-focus-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-toolbar-medium-over-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-toolbar-medium-over-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-toolbar-medium-pressed-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-toolbar-medium-pressed-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-toolbar-small-disabled-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-toolbar-small-disabled-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-toolbar-small-focus-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-toolbar-small-focus-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-toolbar-small-over-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-toolbar-small-over-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-toolbar-small-pressed-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn/btn-default-toolbar-small-pressed-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn-group/btn-group-default-framed-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn-group/btn-group-default-framed-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn-group/btn-group-default-framed-notitle-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/btn-group/btn-group-default-framed-notitle-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/datepicker/datepicker-header-bg.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/datepicker/datepicker-header-bg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/grid-row-editor-buttons/grid-row-editor-buttons-default-bottom-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/grid-row-editor-buttons/grid-row-editor-buttons-default-bottom-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/grid-row-editor-buttons/grid-row-editor-buttons-default-top-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/grid-row-editor-buttons/grid-row-editor-buttons-default-top-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/panel/panel-default-framed-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/panel/panel-default-framed-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/panel-header/panel-header-default-framed-bottom-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/panel-header/panel-header-default-framed-bottom-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/panel-header/panel-header-default-framed-collapsed-bottom-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/panel-header/panel-header-default-framed-collapsed-bottom-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/panel-header/panel-header-default-framed-collapsed-left-corners-rtl.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/panel-header/panel-header-default-framed-collapsed-left-corners-rtl.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/panel-header/panel-header-default-framed-collapsed-left-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/panel-header/panel-header-default-framed-collapsed-left-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/panel-header/panel-header-default-framed-collapsed-right-corners-rtl.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/panel-header/panel-header-default-framed-collapsed-right-corners-rtl.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/panel-header/panel-header-default-framed-collapsed-right-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/panel-header/panel-header-default-framed-collapsed-right-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/panel-header/panel-header-default-framed-collapsed-top-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/panel-header/panel-header-default-framed-collapsed-top-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/panel-header/panel-header-default-framed-left-corners-rtl.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/panel-header/panel-header-default-framed-left-corners-rtl.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/panel-header/panel-header-default-framed-left-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/panel-header/panel-header-default-framed-left-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/panel-header/panel-header-default-framed-right-corners-rtl.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/panel-header/panel-header-default-framed-right-corners-rtl.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/panel-header/panel-header-default-framed-right-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/panel-header/panel-header-default-framed-right-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/panel-header/panel-header-default-framed-top-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/panel-header/panel-header-default-framed-top-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/tab/tab-default-bottom-active-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/tab/tab-default-bottom-active-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/tab/tab-default-bottom-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/tab/tab-default-bottom-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/tab/tab-default-bottom-disabled-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/tab/tab-default-bottom-disabled-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/tab/tab-default-bottom-over-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/tab/tab-default-bottom-over-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/tab/tab-default-top-active-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/tab/tab-default-top-active-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/tab/tab-default-top-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/tab/tab-default-top-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/tab/tab-default-top-disabled-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/tab/tab-default-top-disabled-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/tab/tab-default-top-over-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/tab/tab-default-top-over-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/tip/tip-default-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/tip/tip-default-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/tip/tip-form-invalid-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/tip/tip-form-invalid-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/window/window-default-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/window/window-default-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/window-header/window-header-default-bottom-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/window-header/window-header-default-bottom-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/window-header/window-header-default-collapsed-bottom-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/window-header/window-header-default-collapsed-bottom-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/window-header/window-header-default-collapsed-left-corners-rtl.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/window-header/window-header-default-collapsed-left-corners-rtl.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/window-header/window-header-default-collapsed-left-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/window-header/window-header-default-collapsed-left-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/window-header/window-header-default-collapsed-right-corners-rtl.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/window-header/window-header-default-collapsed-right-corners-rtl.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/window-header/window-header-default-collapsed-right-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/window-header/window-header-default-collapsed-right-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/window-header/window-header-default-collapsed-top-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/window-header/window-header-default-collapsed-top-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/window-header/window-header-default-left-corners-rtl.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/window-header/window-header-default-left-corners-rtl.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/window-header/window-header-default-left-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/window-header/window-header-default-left-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/window-header/window-header-default-left-sides.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/window-header/window-header-default-left-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/window-header/window-header-default-right-corners-rtl.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/window-header/window-header-default-right-corners-rtl.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/window-header/window-header-default-right-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/window-header/window-header-default-right-corners.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/window-header/window-header-default-right-sides.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/window-header/window-header-default-right-sides.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/window-header/window-header-default-top-corners.gif" afterPath="$PROJECT_DIR$/build/production/MyRetirement/resources/images/window-header/window-header-default-top-corners.gif" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap.js" afterPath="$PROJECT_DIR$/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/example/bootstrap.js" afterPath="$PROJECT_DIR$/sass/example/bootstrap.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sencha/app/codegen.json" afterPath="$PROJECT_DIR$/.sencha/app/codegen.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/production/MyRetirement/index.html" afterPath="$PROJECT_DIR$/build/production/MyRetirement/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mret42.iml" afterPath="$PROJECT_DIR$/mret42.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="build/.sass-cache/" />
     <ignored path="build/temp/" />
@@ -294,7 +136,7 @@
       <file leaf-file-name="Application.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="475">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475">
               <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
@@ -311,11 +153,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/view/Main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56213015" vertical-offset="0" max-vertical-offset="845">
-              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+              <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mr-definitions.sh" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Planning01/PlanningStation/mr-definitions.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4825103" vertical-offset="1165" max-vertical-offset="2166">
+              <caret line="86" column="34" selection-start-line="86" selection-start-column="34" selection-end-line="86" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -324,7 +176,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="437">
+            <state vertical-scroll-proportion="-10.178572" vertical-offset="0" max-vertical-offset="437">
               <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
@@ -366,10 +218,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="469" />
-    <option name="y" value="10" />
-    <option name="width" value="1447" />
-    <option name="height" value="1032" />
+    <option name="x" value="510" />
+    <option name="width" value="1410" />
+    <option name="height" value="1165" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -397,8 +248,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -573,34 +422,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asset" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my retirement 42" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mret42" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -614,7 +443,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Ignored.Files" />
+    <property name="options.lastSelected" value="preferences.customizations" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -700,14 +529,6 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -725,10 +546,12 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="AntRunConfigurationType" factoryName="Ant build" debug-port="25000" max-memory="256" logging-level="0">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -754,6 +577,12 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -765,9 +594,6 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -876,6 +702,7 @@
       <workItem from="1412964520106" duration="1150000" />
       <workItem from="1412975213255" duration="518000" />
       <workItem from="1412975758435" duration="970000" />
+      <workItem from="1412989325465" duration="3672000" />
     </task>
     <task id="LOCAL-00001" summary="Adding initial project from Sencha Cmd generate.">
       <created>1412196835069</created>
@@ -897,17 +724,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8229000" />
+    <option name="totallyTimeSpent" value="11901000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="469" y="10" width="1447" height="1032" extended-state="0" />
+    <frame x="510" y="0" width="1410" height="1165" extended-state="4" />
     <editor active="false" />
     <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951945" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951945" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938856" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -916,16 +745,17 @@
       <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2137784" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21312684" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951945" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -992,11 +822,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="437">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="190">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="475">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="171">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="646">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="114">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1215,6 +1092,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/Setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="190">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06822262" vertical-offset="0" max-vertical-offset="557">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.178572" vertical-offset="0" max-vertical-offset="437">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475">
@@ -1231,34 +1131,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/view/Setup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="190">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="437">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06822262" vertical-offset="0" max-vertical-offset="557">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/view/Main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56213015" vertical-offset="0" max-vertical-offset="845">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Planning01/PlanningStation/mr-definitions.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4825103" vertical-offset="1165" max-vertical-offset="2166">
+          <caret line="86" column="34" selection-start-line="86" selection-start-column="34" selection-end-line="86" selection-end-column="34" />
           <folding />
         </state>
       </provider>
