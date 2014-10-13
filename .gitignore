@@ -1,3 +1,4 @@
 /build/temp/
 /build/.sass-cache/
-/resource/sass/.sass-cache/
+/resources/sass/.sass-cache/
+/build/production/MyRetirement/resources/sass/.sass-cache

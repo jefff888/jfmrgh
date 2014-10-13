@@ -1,0 +1,197 @@
+$include-default: false;
+
+// Insert your custom variables here.
+$base-color: #dee2e4;
+$purple: #35083e;
+$page-bg-color: $purple;
+$color: #525252;
+$placeholder-color: #9f9f9f;
+$link-color: #204980;
+$font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+$panel-body-color: $color;
+$loadmask-backgorund: $base-color;
+// [sic]
+
+$table-border-color: #d1d1d1;
+
+$assets-color: #cc8e3f;
+$income-color: #4c6d06;
+$takehome-color: #8c5d89;
+$addl-color: #8c5d89;
+$needs-color: #3692ab;
+$wants-color: #9ab5be;
+
+$include-ie: true;
+
+$legacy-support-for-ie: true;
+$legacy-support-for-ie8: true;
+
+// load ext default styles
+@import 'ext4/default/all';
+
+/*.cf { *zoom: 1; }*/
+.x-tab em {
+	background: #35083e url(../../images/default/nav_bg.gif) repeat-x;
+	min-width: 4em !important;
+}
+
+.x-tab em {
+	background: #35083e url(../../images/default/nav_bg.gif) repeat-x;
+	min-width: 4em !important;
+}
+
+.x-tab.complete em {
+	background: #35083e url(../../images/default/tab-complete.png) repeat-x top !important;
+	color: #fff !important;
+}
+
+.x-tab.complete.x-active em {
+	background: #dee2e4 url(../../images/default/tab-complete-active.png) repeat-x top !important;
+}
+
+.x-tab.saving {
+	background-image: url(../../images/default/tab-saving.gif);
+}
+
+.x-tab-active em {
+	background: url(../../images/default/nav_bg_current.gif) repeat-x;
+}
+
+.x-tab.x-box-item {
+	position: static !important;
+	width: auto !important;
+}
+
+.x-nlg .x-tab-bar {
+	background-image: none;
+}
+
+.x-panel-header-text-container {
+	background: #BCBCBD !important;
+}
+
+.primary-tabs .x-tab-bar-body {
+	top: 4px !important;
+}
+
+.datatable input[type=checkbox] {
+	border: 0 !important;
+}
+
+.x-tab-active.x-tab {
+	padding-top: 0 !important;
+}
+
+.assets-retirementaccounts .col-name input {
+	width: 7em !important;
+}
+
+.assets-retirementaccounts .datatable select {
+	width: 65px !important;
+}
+
+.assets-retirementaccounts .datatable .ends .field-reldate-main select {
+	width: 100px !important;
+}
+
+body .app-panel-body table {
+	border-collapse: separate;
+}
+
+body .x-panel-body-default.x-layout-fit {
+	border-top: 0 !important;
+}
+
+body .datatable .field-boolean input {
+	border: 0 !important;
+}
+
+body .x-container.module-nav.x-container-default.x-box-layout-ct .x-btn.x-box-item.x-btn-plain-small.x-icon.x-btn-icon.x-btn-plain-small-icon {
+	margin-right: 10px !important;
+	position: static !important;
+}
+
+.x-btn .x-btn-primary-large .x-btn-secondary-large {
+	width: 10em !important;
+}
+
+.main-nav .x-btn-primary-large .x-btn-inner, .main-nav .x-btn-secondary-large .x-btn-inner {
+	height: 16px;
+	width: 100% !important;
+	font-size: 13px;
+}
+
+.participant-exit {
+	margin-bottom: 12px !important;
+}
+
+.comparisonChartLegend {
+	*zoom: 1;
+	background: #d6dadc url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAF0lEQVQIW2NggAAuKIYDDAGYID4+HmMAFFUAZetXBmIAAAAASUVORK5CYII=");
+	border: 1px solid #b5b5b7;
+	border-width: 1px 1px 0;
+	position: relative;
+	border-top: medium none;
+	PADDING-TOP: 1px;
+}
+
+.comparisonChartLegend ul {
+	margin: 1.5em 26.5% 0;
+	padding-top: 1.5em;
+}
+
+.whatIfChartLegend {
+	*zoom: 1;
+	background: #d6dadc url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAF0lEQVQIW2NggAAuKIYDDAGYID4+HmMAFFUAZetXBmIAAAAASUVORK5CYII=");
+	border: 1px solid #b5b5b7;
+	border-width: 1px 1px 0;
+	position: relative;
+	border-top: medium none;
+	PADDING-TOP: 1px;
+}
+
+.whatIfChartLegend ul {
+	margin: 1.5em 34.2% 0;
+	padding-top: 1.5em;
+}
+
+body .x-tool.x-box-item.x-tool-default {
+	margin: -11px !important;
+	top: 12px !important;
+}
+
+.stack-chart {
+	padding: ceil($font-size * 1.5) 100px 0;
+}
+
+.save-more-title {
+	min-width: 46.8em;
+	width: 46.8em !important;
+}
+
+.whatif-chart, .whatif-chart-participant {
+	.stack {
+		width: 47%;
+	}
+
+	.baseline {
+		margin-left: -380px;
+		width: 730px;
+	}
+
+	.bar {
+		width: 80%;
+		left: 10%;
+	}
+}
+
+.whatif-table-participant {
+	&.datatable {
+		.x-btn {
+			margin-left: 1.5em;
+			width: 15em !important;
+			padding: .3em .3em;
+		}
+	}
+}
