@@ -1,7 +1,7 @@
 
 
 window.MyRetirement_REMOTEAPI = {
-  "url" : "/current-mssql/extdirect/router",
+  "url" : "/PlanningStation/extdirect/router",
   "type" : "remoting",
   "actions" : {
     "incomeService" : [ {

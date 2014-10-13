@@ -28,7 +28,11 @@ Ext.Loader.addClassPathMappings({
   "Jarvus.field.Percent": "Jarvus/rawfield/Percent.js",
   "Jarvus.field.Select": "Jarvus/rawfield/Select.js",
   "Jarvus.field.Template": "Jarvus/rawfield/Template.js",
-  "MyRetirement": "app"
+  "MyRetirement": "app",
+  "MyRetirement.view.whatif.ChartParticipant": "app/view/whatIf/ChartParticipant.js",
+  "MyRetirement.view.whatif.FooterParticipant": "app/view/whatIf/FooterParticipant.js",
+  "MyRetirement.view.whatif.PanelParticipant": "app/view/whatIf/PanelParticipant.js",
+  "MyRetirement.view.whatif.TableParticipant": "app/view/whatIf/TableParticipant.js"
 });
 
 Ext.ClassManager.addNameAlternateMappings({
@@ -909,7 +913,6 @@ Ext.ClassManager.addNameAlternateMappings({
   "Jarvus.widget.chart.Legend": [],
   "Jarvus.widget.chart.Title": [],
   "MyRetirement.API": [],
-  "MyRetirement.Application": [],
   "MyRetirement.ChartThemes": [],
   "MyRetirement.VARS": [],
   "MyRetirement.chart.MonthlyIncome": [],
@@ -921,10 +924,10 @@ Ext.ClassManager.addNameAlternateMappings({
   "MyRetirement.controller.Main": [],
   "MyRetirement.controller.Setup": [],
   "MyRetirement.controller.Viewport": [],
-  "MyRetirement.controller.WhatIf": [],
   "MyRetirement.controller.WhatIfParticipant": [],
   "MyRetirement.controller.Withdrawal": [],
   "MyRetirement.controller.relius.AboutYou": [],
+  "MyRetirement.controller.relius.AboutYouTab": [],
   "MyRetirement.controller.relius.DisclaimerTab": [],
   "MyRetirement.direct.RemotingProvider": [],
   "MyRetirement.field.Enumeration": [],
@@ -975,7 +978,6 @@ Ext.ClassManager.addNameAlternateMappings({
   "MyRetirement.view.LegendFooter": [],
   "MyRetirement.view.Main": [],
   "MyRetirement.view.ModuleTools": [],
-  "MyRetirement.view.Setup": [],
   "MyRetirement.view.Viewport": [],
   "MyRetirement.view.assets.ChartPanel": [],
   "MyRetirement.view.assets.GrowthChart": [],
@@ -1009,14 +1011,10 @@ Ext.ClassManager.addNameAlternateMappings({
   "MyRetirement.view.setup.MyInformationTable": [],
   "MyRetirement.view.setup.Panel": [],
   "MyRetirement.view.setup.RetirementYearsChart": [],
-  "MyRetirement.view.whatIf.Chart": [],
-  "MyRetirement.view.whatIf.ChartParticipant": [],
-  "MyRetirement.view.whatIf.Footer": [],
-  "MyRetirement.view.whatIf.FooterParticipant": [],
-  "MyRetirement.view.whatIf.Panel": [],
-  "MyRetirement.view.whatIf.PanelParticipant": [],
-  "MyRetirement.view.whatIf.Table": [],
-  "MyRetirement.view.whatIf.TableParticipant": [],
+  "MyRetirement.view.whatif.ChartParticipant": [],
+  "MyRetirement.view.whatif.FooterParticipant": [],
+  "MyRetirement.view.whatif.PanelParticipant": [],
+  "MyRetirement.view.whatif.TableParticipant": [],
   "MyRetirement.view.withdrawal.ChartPanel": [],
   "MyRetirement.view.withdrawal.Panel": [],
   "MyRetirement.view.withdrawal.RateTable": []
@@ -2133,7 +2131,6 @@ Ext.ClassManager.addNameAliasMappings({
     "widget.charttitle"
   ],
   "MyRetirement.API": [],
-  "MyRetirement.Application": [],
   "MyRetirement.ChartThemes": [],
   "MyRetirement.VARS": [],
   "MyRetirement.chart.MonthlyIncome": [
@@ -2147,10 +2144,10 @@ Ext.ClassManager.addNameAliasMappings({
   "MyRetirement.controller.Main": [],
   "MyRetirement.controller.Setup": [],
   "MyRetirement.controller.Viewport": [],
-  "MyRetirement.controller.WhatIf": [],
   "MyRetirement.controller.WhatIfParticipant": [],
   "MyRetirement.controller.Withdrawal": [],
   "MyRetirement.controller.relius.AboutYou": [],
+  "MyRetirement.controller.relius.AboutYouTab": [],
   "MyRetirement.controller.relius.DisclaimerTab": [],
   "MyRetirement.direct.RemotingProvider": [
     "direct.apiprovider"
@@ -2213,63 +2210,150 @@ Ext.ClassManager.addNameAliasMappings({
   "MyRetirement.store.setup.Portfolio": [],
   "MyRetirement.validation.Enumeration": [],
   "MyRetirement.validation.Relius": [],
-  "MyRetirement.view.AppPanel": [],
-  "MyRetirement.view.ChartPanel": [],
-  "MyRetirement.view.DataHeader": [],
-  "MyRetirement.view.DataPanel": [],
-  "MyRetirement.view.HelpPanel": [],
-  "MyRetirement.view.LegendFooter": [],
+  "MyRetirement.view.AppPanel": [
+    "widget.apppanel"
+  ],
+  "MyRetirement.view.ChartPanel": [
+    "widget.chartpanel"
+  ],
+  "MyRetirement.view.DataHeader": [
+    "widget.dataheader"
+  ],
+  "MyRetirement.view.DataPanel": [
+    "widget.datapanel"
+  ],
+  "MyRetirement.view.HelpPanel": [
+    "widget.help"
+  ],
+  "MyRetirement.view.LegendFooter": [
+    "widget.legendfooter"
+  ],
   "MyRetirement.view.Main": [
     "widget.app-main"
   ],
-  "MyRetirement.view.ModuleTools": [],
-  "MyRetirement.view.Setup": [
+  "MyRetirement.view.ModuleTools": [
+    "widget.myretirement-moduletools"
+  ],
+  "MyRetirement.view.Viewport": [
+    "widget.myretirement-viewport"
+  ],
+  "MyRetirement.view.assets.ChartPanel": [
+    "widget.assets-chartpanel"
+  ],
+  "MyRetirement.view.assets.GrowthChart": [
+    "widget.assetgrowthchart"
+  ],
+  "MyRetirement.view.assets.InvestmentAccountSegment": [
+    "widget.assets-investmentaccountsegment"
+  ],
+  "MyRetirement.view.assets.InvestmentAccountTable": [
+    "widget.assets-investmentaccounttable"
+  ],
+  "MyRetirement.view.assets.InvestmentAccounts": [
+    "widget.assets-investmentaccounts"
+  ],
+  "MyRetirement.view.assets.Panel": [
+    "widget.assets-panel"
+  ],
+  "MyRetirement.view.assets.RetirementAccountSegment": [
+    "widget.assets-retirementaccountsegment"
+  ],
+  "MyRetirement.view.assets.RetirementAccountTable": [
+    "widget.assets-retirementaccounttable"
+  ],
+  "MyRetirement.view.assets.RetirementAccounts": [
+    "widget.assets-retirementaccounts"
+  ],
+  "MyRetirement.view.comparison.Chart": [
+    "widget.comparison-chart"
+  ],
+  "MyRetirement.view.comparison.MyBudgetRow": [
+    "widget.comparison-mybudgetrow"
+  ],
+  "MyRetirement.view.comparison.MyBudgetTable": [
+    "widget.comparison-mybudgettable"
+  ],
+  "MyRetirement.view.comparison.MyBudgetTotalsRow": [
+    "widget.comparison-mybudgettotalsrow"
+  ],
+  "MyRetirement.view.comparison.Panel": [
+    "widget.comparison-panel"
+  ],
+  "MyRetirement.view.comparison.TakeHomeTable": [
+    "widget.comparison-takehometable"
+  ],
+  "MyRetirement.view.income.ChartPanel": [
+    "widget.income-chartpanel"
+  ],
+  "MyRetirement.view.income.MonthlyChart": [
+    "widget.monthlyincomechart"
+  ],
+  "MyRetirement.view.income.NoteAnnuitySegment": [
+    "widget.income-noteannuity"
+  ],
+  "MyRetirement.view.income.NoteAnnuityTable": [
+    "widget.income-noteannuitytable"
+  ],
+  "MyRetirement.view.income.OtherIncomeSegment": [
+    "widget.income-otherincome"
+  ],
+  "MyRetirement.view.income.OtherIncomeTable": [
+    "widget.income-otherincometable"
+  ],
+  "MyRetirement.view.income.Panel": [
+    "widget.income-panel"
+  ],
+  "MyRetirement.view.income.SocialSecurityTable": [
+    "widget.income-socialsecuritytable"
+  ],
+  "MyRetirement.view.relius.AboutYouTab": [
+    "widget.about-you-tab"
+  ],
+  "MyRetirement.view.relius.DisclaimerTab": [
+    "widget.disclaimer-tab"
+  ],
+  "MyRetirement.view.relius.ModuleToolsRelius": [
+    "widget.myretirement-moduletools-relius"
+  ],
+  "MyRetirement.view.relius.PersonalInfoForm": [
+    "widget.relius-personalinfo"
+  ],
+  "MyRetirement.view.setup.AssumptionTable": [
+    "widget.setup-assumptiontable"
+  ],
+  "MyRetirement.view.setup.ChartPanel": [
+    "widget.setup-chartpanel"
+  ],
+  "MyRetirement.view.setup.MyInformationTable": [
+    "widget.setup-myinformationtable"
+  ],
+  "MyRetirement.view.setup.Panel": [
     "widget.setup-panel"
   ],
-  "MyRetirement.view.Viewport": [],
-  "MyRetirement.view.assets.ChartPanel": [],
-  "MyRetirement.view.assets.GrowthChart": [],
-  "MyRetirement.view.assets.InvestmentAccountSegment": [],
-  "MyRetirement.view.assets.InvestmentAccountTable": [],
-  "MyRetirement.view.assets.InvestmentAccounts": [],
-  "MyRetirement.view.assets.Panel": [],
-  "MyRetirement.view.assets.RetirementAccountSegment": [],
-  "MyRetirement.view.assets.RetirementAccountTable": [],
-  "MyRetirement.view.assets.RetirementAccounts": [],
-  "MyRetirement.view.comparison.Chart": [],
-  "MyRetirement.view.comparison.MyBudgetRow": [],
-  "MyRetirement.view.comparison.MyBudgetTable": [],
-  "MyRetirement.view.comparison.MyBudgetTotalsRow": [],
-  "MyRetirement.view.comparison.Panel": [],
-  "MyRetirement.view.comparison.TakeHomeTable": [],
-  "MyRetirement.view.income.ChartPanel": [],
-  "MyRetirement.view.income.MonthlyChart": [],
-  "MyRetirement.view.income.NoteAnnuitySegment": [],
-  "MyRetirement.view.income.NoteAnnuityTable": [],
-  "MyRetirement.view.income.OtherIncomeSegment": [],
-  "MyRetirement.view.income.OtherIncomeTable": [],
-  "MyRetirement.view.income.Panel": [],
-  "MyRetirement.view.income.SocialSecurityTable": [],
-  "MyRetirement.view.relius.AboutYouTab": [],
-  "MyRetirement.view.relius.DisclaimerTab": [],
-  "MyRetirement.view.relius.ModuleToolsRelius": [],
-  "MyRetirement.view.relius.PersonalInfoForm": [],
-  "MyRetirement.view.setup.AssumptionTable": [],
-  "MyRetirement.view.setup.ChartPanel": [],
-  "MyRetirement.view.setup.MyInformationTable": [],
-  "MyRetirement.view.setup.Panel": [],
-  "MyRetirement.view.setup.RetirementYearsChart": [],
-  "MyRetirement.view.whatIf.Chart": [],
-  "MyRetirement.view.whatIf.ChartParticipant": [],
-  "MyRetirement.view.whatIf.Footer": [],
-  "MyRetirement.view.whatIf.FooterParticipant": [],
-  "MyRetirement.view.whatIf.Panel": [],
-  "MyRetirement.view.whatIf.PanelParticipant": [],
-  "MyRetirement.view.whatIf.Table": [],
-  "MyRetirement.view.whatIf.TableParticipant": [],
-  "MyRetirement.view.withdrawal.ChartPanel": [],
-  "MyRetirement.view.withdrawal.Panel": [],
-  "MyRetirement.view.withdrawal.RateTable": []
+  "MyRetirement.view.setup.RetirementYearsChart": [
+    "widget.retirementyearschart"
+  ],
+  "MyRetirement.view.whatif.ChartParticipant": [
+    "widget.whatif-chart-participant"
+  ],
+  "MyRetirement.view.whatif.FooterParticipant": [
+    "widget.whatiffooterparticipant"
+  ],
+  "MyRetirement.view.whatif.PanelParticipant": [
+    "widget.whatif-panel-participant"
+  ],
+  "MyRetirement.view.whatif.TableParticipant": [
+    "widget.whatif-table-participant"
+  ],
+  "MyRetirement.view.withdrawal.ChartPanel": [
+    "widget.withdrawal-chartpanel"
+  ],
+  "MyRetirement.view.withdrawal.Panel": [
+    "widget.withdrawal-panel"
+  ],
+  "MyRetirement.view.withdrawal.RateTable": [
+    "widget.withdrawal-ratetable"
+  ]
 });
 
 Ext.setVersion("ext-theme-base", "4.2.2");

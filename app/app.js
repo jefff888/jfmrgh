@@ -16,15 +16,15 @@ Ext.application({
 
     ,controllers: [
         'Viewport'
-//        ,'relius.DisclaimerTab'
-//        ,'relius.AboutYouTab'
-//        ,'Assets'
-//        ,'Comparison'
-//        ,'Income'
+        ,'relius.DisclaimerTab'
+        ,'relius.AboutYouTab'
+        ,'Assets'
+        ,'Comparison'
+        ,'Income'
         ,'Setup'
-//        ,'WhatIfParticipant'
-//        ,'Withdrawal'
-//        ,'Help'
+        ,'WhatIfParticipant'
+        ,'Withdrawal'
+        ,'Help'
     ]
 
     ,init: function() {
